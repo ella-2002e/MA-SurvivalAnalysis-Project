@@ -1,0 +1,1001 @@
+Customer_ID,region,tenure,Age,Marital_Status,Address_ID,income,Education,Retirement,gender,Voice_Included,Internet_Included,Forward_Included,service_category,churn
+1,Zone 2,13,44,Married,9,64,College degree,No,Male,No,No,Yes,Basic service,Yes
+2,Zone 3,11,33,Married,7,136,Post-undergraduate degree,No,Male,Yes,No,Yes,Total service,Yes
+3,Zone 3,68,52,Married,24,116,Did not complete high school,No,Female,No,No,No,Plus service,No
+4,Zone 2,33,33,Unmarried,12,33,High school degree,No,Female,No,No,No,Basic service,Yes
+5,Zone 2,23,30,Married,9,30,Did not complete high school,No,Male,No,No,Yes,Plus service,No
+6,Zone 2,41,39,Unmarried,17,78,High school degree,No,Female,No,No,No,Plus service,No
+7,Zone 3,45,22,Married,2,19,High school degree,No,Female,No,Yes,No,E-service,Yes
+8,Zone 2,38,35,Unmarried,5,76,High school degree,No,Male,Yes,Yes,Yes,Total service,No
+9,Zone 3,45,59,Married,7,166,College degree,No,Male,No,No,Yes,Plus service,No
+10,Zone 1,68,41,Married,21,72,Did not complete high school,No,Male,No,No,No,E-service,No
+11,Zone 2,5,33,Unmarried,10,125,College degree,No,Female,No,Yes,No,Basic service,Yes
+12,Zone 3,7,35,Unmarried,14,80,High school degree,No,Female,Yes,No,Yes,Plus service,No
+13,Zone 1,41,38,Married,8,37,High school degree,No,Female,No,No,No,Basic service,No
+14,Zone 2,57,54,Married,30,115,College degree,No,Female,Yes,Yes,Yes,Total service,Yes
+15,Zone 2,9,46,Unmarried,3,25,Did not complete high school,No,Female,No,No,No,Basic service,No
+16,Zone 1,29,38,Married,12,75,Post-undergraduate degree,No,Male,No,Yes,No,E-service,No
+17,Zone 3,60,57,Unmarried,38,162,High school degree,No,Male,No,No,Yes,Plus service,No
+18,Zone 3,34,48,Unmarried,3,49,High school degree,No,Female,No,No,Yes,Plus service,No
+19,Zone 2,1,24,Unmarried,3,20,Did not complete high school,No,Male,No,No,No,Basic service,No
+20,Zone 1,26,29,Married,3,77,College degree,No,Male,Yes,Yes,Yes,Total service,Yes
+21,Zone 3,6,30,Unmarried,7,16,Some college,No,Female,No,Yes,No,E-service,Yes
+22,Zone 1,68,52,Married,17,120,Did not complete high school,No,Male,No,No,Yes,Basic service,No
+23,Zone 3,53,33,Unmarried,10,101,Post-undergraduate degree,No,Female,Yes,Yes,Yes,Total service,No
+24,Zone 3,55,48,Married,19,67,Did not complete high school,No,Male,No,No,No,Basic service,No
+25,Zone 3,14,43,Married,18,36,Did not complete high school,No,Male,No,No,Yes,Plus service,No
+26,Zone 2,1,21,Unmarried,0,33,High school degree,No,Female,No,No,Yes,Plus service,No
+27,Zone 2,42,40,Unmarried,7,37,High school degree,No,Female,Yes,Yes,No,Total service,No
+28,Zone 3,25,33,Married,11,31,Did not complete high school,No,Male,No,No,Yes,Plus service,No
+29,Zone 1,9,21,Married,1,17,High school degree,No,Female,No,No,No,Basic service,No
+30,Zone 2,13,33,Married,9,19,College degree,No,Female,No,Yes,No,E-service,No
+31,Zone 1,56,37,Married,6,36,Did not complete high school,No,Female,No,Yes,No,E-service,No
+32,Zone 1,71,53,Married,27,155,Post-undergraduate degree,No,Male,Yes,Yes,Yes,Total service,No
+33,Zone 1,35,50,Married,26,140,High school degree,No,Female,No,No,Yes,Plus service,No
+34,Zone 1,11,27,Married,8,55,Post-undergraduate degree,No,Male,No,Yes,No,E-service,No
+35,Zone 2,60,46,Married,13,163,Some college,No,Male,Yes,Yes,Yes,Total service,No
+36,Zone 3,20,35,Married,11,52,College degree,No,Male,No,Yes,No,E-service,Yes
+37,Zone 2,54,60,Unmarried,38,211,College degree,No,Male,Yes,Yes,No,Total service,No
+38,Zone 1,44,57,Married,1,186,High school degree,No,Male,Yes,No,Yes,Plus service,No
+39,Zone 1,11,41,Married,0,39,Did not complete high school,No,Female,Yes,No,Yes,Plus service,Yes
+40,Zone 2,72,57,Unmarried,34,22,High school degree,Yes,Female,No,No,Yes,Plus service,No
+41,Zone 3,10,41,Unmarried,7,30,Did not complete high school,No,Male,No,No,Yes,Plus service,No
+42,Zone 2,15,28,Unmarried,0,29,High school degree,No,Female,No,No,Yes,Plus service,No
+43,Zone 2,27,28,Married,4,23,High school degree,No,Male,No,No,No,Basic service,No
+44,Zone 1,9,36,Married,14,62,College degree,No,Male,Yes,Yes,No,Total service,Yes
+45,Zone 1,64,43,Married,20,76,College degree,No,Female,No,No,No,Plus service,No
+46,Zone 1,65,41,Married,3,74,College degree,No,Male,Yes,Yes,No,E-service,No
+47,Zone 1,49,51,Married,27,63,College degree,No,Male,No,Yes,No,E-service,No
+48,Zone 3,47,41,Married,0,36,College degree,No,Male,No,Yes,No,Total service,Yes
+49,Zone 3,9,34,Married,9,33,High school degree,No,Female,No,No,No,Basic service,Yes
+50,Zone 1,5,36,Unmarried,14,29,High school degree,No,Female,No,Yes,Yes,Plus service,Yes
+51,Zone 2,30,34,Married,4,27,High school degree,No,Male,No,Yes,No,Basic service,Yes
+52,Zone 1,56,52,Married,28,49,High school degree,No,Male,No,No,No,E-service,No
+53,Zone 3,10,22,Unmarried,0,24,College degree,No,Male,Yes,Yes,Yes,Total service,No
+54,Zone 1,7,26,Married,3,26,High school degree,No,Male,No,No,No,Basic service,No
+55,Zone 1,52,27,Unmarried,6,47,Some college,No,Male,No,No,No,Basic service,No
+56,Zone 2,36,45,Married,1,94,High school degree,No,Female,No,Yes,No,Basic service,Yes
+57,Zone 3,27,34,Unmarried,8,21,Some college,No,Female,No,No,No,E-service,No
+58,Zone 1,58,62,Married,36,27,Did not complete high school,No,Male,No,No,No,Basic service,No
+59,Zone 2,41,52,Unmarried,27,30,High school degree,No,Female,No,No,Yes,Plus service,No
+60,Zone 2,47,40,Married,16,127,College degree,No,Female,No,Yes,No,E-service,No
+61,Zone 2,55,39,Married,15,137,High school degree,No,Female,Yes,No,Yes,Plus service,Yes
+62,Zone 2,56,50,Married,1,80,High school degree,No,Female,Yes,No,Yes,Total service,No
+63,Zone 3,35,55,Unmarried,24,30,High school degree,No,Male,No,No,No,Basic service,No
+64,Zone 2,69,51,Married,11,438,College degree,No,Female,No,Yes,No,Total service,No
+65,Zone 2,44,39,Unmarried,16,79,High school degree,No,Male,No,Yes,Yes,Total service,Yes
+66,Zone 3,36,47,Married,16,63,Did not complete high school,No,Male,No,No,No,Basic service,No
+67,Zone 3,28,51,Married,22,40,Some college,No,Female,No,No,Yes,Plus service,No
+68,Zone 1,72,67,Married,44,51,Did not complete high school,Yes,Male,No,No,Yes,Plus service,No
+69,Zone 1,16,27,Unmarried,5,37,Some college,No,Male,No,No,No,Basic service,No
+70,Zone 3,3,43,Unmarried,19,61,College degree,No,Female,No,Yes,No,Basic service,Yes
+71,Zone 1,40,57,Married,15,22,High school degree,No,Male,No,No,No,Basic service,No
+72,Zone 3,16,39,Unmarried,6,44,College degree,No,Female,No,Yes,No,E-service,No
+73,Zone 1,20,42,Unmarried,4,17,Some college,No,Male,No,No,No,Basic service,No
+74,Zone 2,48,43,Unmarried,13,110,Post-undergraduate degree,No,Female,Yes,Yes,No,E-service,No
+75,Zone 2,64,48,Married,13,91,High school degree,No,Male,No,No,Yes,Plus service,No
+76,Zone 1,8,46,Unmarried,3,46,High school degree,No,Male,No,Yes,No,Basic service,No
+77,Zone 1,40,38,Married,10,85,Some college,No,Male,No,No,Yes,Plus service,Yes
+78,Zone 2,38,71,Unmarried,27,10,High school degree,Yes,Male,No,No,No,Basic service,No
+79,Zone 1,67,68,Unmarried,28,244,Did not complete high school,No,Female,Yes,No,Yes,Plus service,No
+80,Zone 1,26,42,Unmarried,0,80,College degree,No,Female,Yes,Yes,Yes,Total service,No
+81,Zone 3,41,34,Married,15,83,Post-undergraduate degree,No,Female,Yes,Yes,Yes,Total service,No
+82,Zone 2,2,31,Unmarried,2,21,Did not complete high school,No,Male,No,No,No,Basic service,Yes
+83,Zone 3,20,48,Married,29,24,High school degree,No,Male,Yes,No,Yes,Total service,Yes
+84,Zone 2,31,53,Unmarried,2,351,Some college,No,Female,No,No,Yes,Plus service,No
+85,Zone 2,45,52,Married,4,169,College degree,No,Female,No,Yes,No,E-service,No
+86,Zone 2,33,27,Married,7,46,High school degree,No,Male,No,No,No,Basic service,No
+87,Zone 1,10,26,Unmarried,6,34,Some college,No,Male,No,No,No,E-service,No
+88,Zone 2,62,54,Married,2,50,College degree,No,Male,Yes,Yes,Yes,Total service,Yes
+89,Zone 2,4,35,Unmarried,16,161,Post-undergraduate degree,No,Female,Yes,Yes,Yes,Total service,Yes
+90,Zone 1,42,47,Married,17,212,College degree,No,Male,No,No,Yes,Plus service,No
+91,Zone 3,27,51,Married,3,80,Post-undergraduate degree,No,Male,No,Yes,No,E-service,No
+92,Zone 2,38,42,Unmarried,1,30,College degree,No,Female,No,No,No,Basic service,No
+93,Zone 3,52,61,Married,3,53,Post-undergraduate degree,No,Female,Yes,Yes,No,E-service,No
+94,Zone 3,35,33,Unmarried,9,73,Post-undergraduate degree,No,Female,Yes,Yes,Yes,Total service,No
+95,Zone 3,3,20,Married,1,17,High school degree,No,Female,No,No,No,Basic service,Yes
+96,Zone 2,17,33,Unmarried,9,23,Post-undergraduate degree,No,Male,Yes,Yes,No,Total service,Yes
+97,Zone 1,55,53,Married,21,34,Did not complete high school,No,Male,No,No,Yes,Plus service,No
+98,Zone 3,43,36,Married,5,107,Did not complete high school,No,Female,No,No,No,E-service,Yes
+99,Zone 2,47,25,Married,5,21,Did not complete high school,No,Female,No,No,Yes,Plus service,Yes
+100,Zone 3,65,58,Unmarried,30,83,High school degree,No,Female,No,No,No,E-service,No
+101,Zone 1,13,20,Unmarried,1,17,Some college,No,Male,No,Yes,Yes,Total service,No
+102,Zone 3,64,25,Married,4,76,Some college,No,Female,No,No,Yes,Plus service,No
+103,Zone 2,12,24,Unmarried,2,19,Did not complete high school,No,Male,No,No,Yes,Plus service,Yes
+104,Zone 1,29,32,Married,0,49,College degree,No,Female,No,Yes,No,E-service,Yes
+105,Zone 2,23,47,Unmarried,21,173,Some college,No,Female,No,No,No,E-service,No
+106,Zone 2,14,35,Unmarried,4,47,Some college,No,Female,No,No,Yes,E-service,Yes
+107,Zone 1,35,61,Unmarried,23,41,High school degree,No,Male,No,No,No,Basic service,No
+108,Zone 3,26,39,Unmarried,8,105,Some college,No,Female,Yes,No,Yes,Total service,No
+109,Zone 1,13,54,Unmarried,2,31,College degree,No,Male,Yes,Yes,No,Basic service,No
+110,Zone 2,69,40,Married,13,41,High school degree,No,Male,No,No,No,E-service,No
+111,Zone 3,61,50,Married,30,102,College degree,No,Female,No,Yes,No,E-service,No
+112,Zone 2,45,22,Married,2,36,College degree,No,Female,No,No,No,E-service,Yes
+113,Zone 2,3,37,Unmarried,13,24,Did not complete high school,No,Female,Yes,No,No,Basic service,No
+114,Zone 2,53,22,Unmarried,1,25,College degree,No,Male,No,Yes,No,E-service,No
+115,Zone 1,59,42,Unmarried,1,68,High school degree,No,Female,No,No,Yes,Plus service,No
+116,Zone 1,13,34,Unmarried,11,20,Some college,No,Female,No,Yes,No,Basic service,No
+117,Zone 3,31,31,Unmarried,4,48,Did not complete high school,No,Male,No,No,Yes,Plus service,No
+118,Zone 1,40,29,Married,6,40,High school degree,No,Female,No,No,Yes,Plus service,No
+119,Zone 1,48,55,Unmarried,15,79,Did not complete high school,No,Male,No,No,Yes,Plus service,No
+120,Zone 3,3,31,Unmarried,1,28,Did not complete high school,No,Male,No,Yes,Yes,Basic service,Yes
+121,Zone 2,51,48,Unmarried,12,64,High school degree,No,Female,No,No,No,Basic service,No
+122,Zone 3,33,41,Unmarried,15,37,High school degree,No,Male,No,No,No,Basic service,No
+123,Zone 3,14,47,Married,7,48,Did not complete high school,No,Male,No,No,No,Basic service,No
+124,Zone 1,17,42,Married,6,131,Post-undergraduate degree,No,Male,No,Yes,No,E-service,Yes
+125,Zone 3,19,29,Married,9,18,High school degree,No,Male,No,Yes,Yes,Basic service,Yes
+126,Zone 2,58,36,Unmarried,10,38,High school degree,No,Female,No,No,No,E-service,No
+127,Zone 3,22,23,Unmarried,3,37,High school degree,No,Female,Yes,Yes,No,Total service,No
+128,Zone 2,29,31,Married,1,60,College degree,No,Male,No,Yes,No,E-service,Yes
+129,Zone 3,14,22,Married,2,13,Some college,No,Female,No,Yes,No,E-service,Yes
+130,Zone 2,70,64,Married,18,98,Did not complete high school,No,Female,Yes,No,Yes,Total service,No
+131,Zone 1,62,52,Married,2,195,Did not complete high school,No,Male,No,No,Yes,Plus service,Yes
+132,Zone 2,7,35,Married,0,47,Did not complete high school,No,Male,No,No,No,Basic service,Yes
+133,Zone 1,56,47,Married,19,65,High school degree,No,Male,Yes,No,Yes,Total service,No
+134,Zone 1,50,50,Married,22,150,Post-undergraduate degree,No,Female,Yes,Yes,Yes,E-service,Yes
+135,Zone 2,57,39,Unmarried,6,106,Post-undergraduate degree,No,Male,No,No,Yes,Plus service,No
+136,Zone 3,2,40,Unmarried,19,51,College degree,No,Female,Yes,Yes,No,Basic service,No
+137,Zone 2,40,38,Unmarried,17,96,College degree,No,Female,No,No,No,Basic service,No
+138,Zone 2,6,43,Unmarried,4,33,Post-undergraduate degree,No,Male,No,No,Yes,Plus service,No
+139,Zone 3,23,25,Married,6,38,High school degree,No,Female,No,No,Yes,Plus service,No
+140,Zone 3,11,32,Unmarried,6,125,College degree,No,Male,Yes,Yes,Yes,Total service,Yes
+141,Zone 1,29,37,Married,13,145,Post-undergraduate degree,No,Female,Yes,Yes,Yes,Total service,No
+142,Zone 1,42,44,Married,2,99,High school degree,No,Male,No,No,No,Plus service,No
+143,Zone 1,20,34,Married,2,22,College degree,No,Female,No,Yes,Yes,Total service,No
+144,Zone 2,72,60,Married,21,31,Did not complete high school,Yes,Male,No,No,No,E-service,No
+145,Zone 1,2,36,Unmarried,3,25,Did not complete high school,No,Female,No,No,Yes,Plus service,No
+146,Zone 3,46,25,Unmarried,5,57,Post-undergraduate degree,No,Female,No,Yes,Yes,Basic service,No
+147,Zone 2,39,51,Married,21,41,Post-undergraduate degree,No,Male,Yes,Yes,Yes,Total service,No
+148,Zone 3,24,25,Married,1,20,Some college,No,Female,No,Yes,Yes,E-service,Yes
+149,Zone 3,59,43,Married,4,101,High school degree,No,Female,No,No,No,E-service,No
+150,Zone 1,65,37,Unmarried,8,56,High school degree,No,Male,No,No,No,E-service,No
+151,Zone 2,50,27,Married,5,22,High school degree,No,Female,No,No,No,Basic service,No
+152,Zone 1,57,37,Unmarried,11,108,College degree,No,Female,No,Yes,No,Plus service,No
+153,Zone 3,61,48,Unmarried,14,115,College degree,No,Female,Yes,Yes,Yes,Total service,No
+154,Zone 3,34,54,Unmarried,31,53,College degree,No,Male,Yes,Yes,Yes,Total service,No
+155,Zone 3,38,53,Unmarried,13,242,College degree,No,Male,Yes,No,Yes,Total service,No
+156,Zone 1,3,24,Married,2,20,High school degree,No,Female,Yes,Yes,No,Plus service,No
+157,Zone 2,4,47,Unmarried,5,123,College degree,No,Male,No,Yes,Yes,Basic service,No
+158,Zone 2,15,35,Unmarried,0,34,Did not complete high school,No,Male,No,No,No,Basic service,No
+159,Zone 1,25,29,Married,8,31,College degree,No,Female,No,Yes,No,E-service,Yes
+160,Zone 3,21,44,Unmarried,25,47,Did not complete high school,No,Female,No,No,Yes,Plus service,No
+161,Zone 3,50,37,Married,11,48,Some college,No,Female,No,No,Yes,Plus service,No
+162,Zone 2,65,64,Married,22,13,High school degree,Yes,Female,No,No,Yes,Plus service,No
+163,Zone 2,59,52,Married,18,78,Did not complete high school,No,Male,No,No,No,Basic service,No
+164,Zone 3,29,26,Unmarried,7,34,Did not complete high school,No,Female,No,No,No,Plus service,No
+165,Zone 1,60,46,Unmarried,17,81,Post-undergraduate degree,No,Female,No,Yes,No,E-service,No
+166,Zone 1,71,45,Married,14,86,High school degree,No,Male,No,Yes,No,E-service,No
+167,Zone 3,38,27,Married,0,26,College degree,No,Male,Yes,Yes,Yes,Total service,Yes
+168,Zone 3,16,34,Married,5,51,High school degree,No,Female,No,No,No,Basic service,No
+169,Zone 3,7,31,Unmarried,10,59,Some college,No,Male,Yes,No,No,Basic service,No
+170,Zone 1,59,53,Unmarried,21,112,College degree,No,Male,No,Yes,No,E-service,Yes
+171,Zone 2,22,56,Married,14,57,College degree,No,Male,Yes,Yes,Yes,Total service,No
+172,Zone 1,18,48,Married,20,41,Did not complete high school,No,Female,No,No,No,Basic service,No
+173,Zone 2,64,46,Married,19,168,High school degree,No,Female,Yes,Yes,Yes,Total service,No
+174,Zone 2,7,33,Unmarried,4,29,College degree,No,Female,No,Yes,No,Basic service,Yes
+175,Zone 3,65,58,Unmarried,13,167,High school degree,No,Female,No,No,No,E-service,No
+176,Zone 3,7,24,Unmarried,5,29,High school degree,No,Male,No,Yes,No,Basic service,Yes
+177,Zone 1,64,55,Unmarried,28,104,Did not complete high school,No,Female,No,No,No,Plus service,No
+178,Zone 3,42,22,Married,0,46,College degree,No,Male,Yes,Yes,Yes,Total service,Yes
+179,Zone 3,33,26,Unmarried,5,46,College degree,No,Female,No,Yes,Yes,Total service,No
+180,Zone 1,3,33,Unmarried,8,51,College degree,No,Female,No,No,No,Basic service,Yes
+181,Zone 2,69,42,Married,11,65,High school degree,No,Male,Yes,Yes,Yes,Total service,No
+182,Zone 2,9,33,Unmarried,1,48,High school degree,No,Male,No,No,No,Basic service,No
+183,Zone 3,22,34,Married,1,46,Some college,No,Male,No,Yes,No,E-service,No
+184,Zone 2,53,63,Married,15,43,High school degree,No,Male,No,Yes,No,E-service,No
+185,Zone 3,71,53,Unmarried,30,110,Did not complete high school,No,Male,No,No,No,E-service,No
+186,Zone 3,24,26,Unmarried,2,32,Some college,No,Male,No,No,No,Basic service,No
+187,Zone 3,12,22,Married,1,18,Some college,No,Female,No,Yes,No,Basic service,No
+188,Zone 1,25,39,Married,1,26,College degree,No,Male,Yes,Yes,No,E-service,Yes
+189,Zone 3,63,28,Married,9,34,High school degree,No,Female,Yes,No,Yes,Plus service,No
+190,Zone 1,33,54,Married,18,57,College degree,No,Female,No,Yes,Yes,Plus service,Yes
+191,Zone 2,57,54,Married,20,21,High school degree,No,Female,No,No,No,Basic service,No
+192,Zone 3,13,33,Unmarried,7,38,Some college,No,Female,Yes,Yes,Yes,Total service,No
+193,Zone 1,13,21,Unmarried,2,19,Some college,No,Female,No,Yes,No,E-service,Yes
+194,Zone 1,71,39,Unmarried,2,40,Some college,No,Male,Yes,No,No,Plus service,No
+195,Zone 3,18,69,Married,11,58,Some college,No,Male,Yes,Yes,Yes,Total service,No
+196,Zone 1,17,51,Married,10,95,High school degree,No,Female,No,No,No,Basic service,Yes
+197,Zone 2,22,43,Unmarried,4,114,High school degree,No,Male,No,No,No,Basic service,No
+198,Zone 2,65,65,Married,27,128,Some college,No,Male,No,No,Yes,Plus service,No
+199,Zone 3,7,40,Unmarried,9,33,College degree,No,Female,No,Yes,No,Basic service,No
+200,Zone 3,72,66,Unmarried,30,460,College degree,No,Female,Yes,Yes,Yes,Total service,No
+201,Zone 1,35,43,Unmarried,12,224,Some college,No,Male,No,No,No,Basic service,No
+202,Zone 1,24,39,Unmarried,2,122,College degree,No,Male,No,Yes,Yes,Total service,No
+203,Zone 1,64,24,Married,0,23,Some college,No,Female,No,Yes,No,E-service,No
+204,Zone 2,63,63,Married,19,191,Some college,No,Male,No,No,No,E-service,No
+205,Zone 1,38,31,Married,7,187,College degree,No,Male,Yes,No,Yes,Total service,Yes
+206,Zone 2,29,37,Married,9,119,Some college,No,Male,No,No,No,Basic service,No
+207,Zone 1,72,69,Married,49,44,High school degree,Yes,Female,No,No,No,Plus service,No
+208,Zone 1,10,27,Married,2,15,Some college,No,Female,Yes,Yes,Yes,Total service,Yes
+209,Zone 3,72,64,Unmarried,41,674,College degree,No,Female,Yes,No,Yes,Plus service,No
+210,Zone 3,52,23,Married,4,33,College degree,No,Female,No,No,Yes,Plus service,No
+211,Zone 3,13,55,Unmarried,3,250,High school degree,No,Female,No,No,No,Basic service,No
+212,Zone 1,3,33,Unmarried,6,64,College degree,No,Male,No,No,No,Basic service,Yes
+213,Zone 3,39,24,Married,2,26,High school degree,No,Male,No,No,No,Basic service,Yes
+214,Zone 2,28,29,Unmarried,4,23,Some college,No,Male,No,Yes,Yes,E-service,No
+215,Zone 2,46,42,Unmarried,9,52,College degree,No,Male,No,No,No,E-service,No
+216,Zone 2,62,46,Unmarried,27,200,Some college,No,Female,No,No,No,Basic service,No
+217,Zone 2,23,33,Married,7,28,Did not complete high school,No,Male,No,No,Yes,Plus service,No
+218,Zone 3,23,25,Married,5,19,Post-undergraduate degree,No,Male,Yes,Yes,Yes,Total service,Yes
+219,Zone 2,72,61,Married,39,76,Some college,No,Male,Yes,Yes,Yes,Total service,No
+220,Zone 3,56,60,Unmarried,26,70,High school degree,No,Male,No,No,No,Basic service,No
+221,Zone 1,8,30,Unmarried,1,34,High school degree,No,Female,No,No,Yes,Plus service,No
+222,Zone 3,3,36,Unmarried,7,34,Post-undergraduate degree,No,Female,Yes,No,Yes,Total service,No
+223,Zone 3,37,37,Unmarried,7,172,Some college,No,Male,No,No,No,Basic service,No
+224,Zone 3,37,53,Married,13,48,Did not complete high school,No,Male,No,No,Yes,Plus service,No
+225,Zone 2,6,30,Unmarried,9,45,High school degree,No,Female,No,No,No,Basic service,Yes
+226,Zone 1,48,47,Unmarried,9,72,Some college,No,Male,Yes,No,Yes,Total service,Yes
+227,Zone 2,43,43,Married,3,55,College degree,No,Female,Yes,Yes,Yes,Total service,No
+228,Zone 2,21,29,Unmarried,7,40,College degree,No,Female,No,Yes,Yes,Basic service,No
+229,Zone 3,6,33,Unmarried,12,26,Some college,No,Male,Yes,Yes,Yes,Plus service,Yes
+230,Zone 2,69,51,Unmarried,18,96,Did not complete high school,No,Male,No,No,Yes,Plus service,No
+231,Zone 1,22,33,Unmarried,9,54,Did not complete high school,No,Male,No,No,Yes,Plus service,No
+232,Zone 1,28,40,Married,1,47,High school degree,No,Female,No,No,Yes,Plus service,No
+233,Zone 1,71,47,Married,23,142,Did not complete high school,No,Male,No,No,No,E-service,No
+234,Zone 2,7,37,Unmarried,5,57,College degree,No,Male,No,No,No,Basic service,No
+235,Zone 1,63,29,Unmarried,10,20,Some college,No,Male,Yes,Yes,Yes,Total service,No
+236,Zone 2,53,57,Unmarried,25,37,Did not complete high school,No,Male,No,No,Yes,E-service,No
+237,Zone 2,50,52,Married,17,36,College degree,No,Male,Yes,No,Yes,Total service,No
+238,Zone 2,39,31,Married,6,24,College degree,No,Male,No,No,Yes,Total service,No
+239,Zone 3,16,19,Unmarried,0,21,High school degree,No,Female,No,No,No,Basic service,No
+240,Zone 3,43,51,Married,15,186,Some college,No,Male,Yes,No,Yes,Total service,No
+241,Zone 3,44,31,Unmarried,12,30,Did not complete high school,No,Female,No,No,No,Basic service,No
+242,Zone 2,72,66,Married,43,96,High school degree,No,Female,Yes,No,Yes,Total service,No
+243,Zone 3,61,76,Unmarried,39,15,Did not complete high school,Yes,Male,No,No,Yes,Plus service,No
+244,Zone 3,43,21,Married,1,25,Did not complete high school,No,Male,No,Yes,Yes,E-service,Yes
+245,Zone 3,24,39,Unmarried,11,49,Some college,No,Female,No,Yes,No,Basic service,No
+246,Zone 3,64,45,Unmarried,4,38,High school degree,No,Female,Yes,No,Yes,Plus service,Yes
+247,Zone 2,64,38,Unmarried,0,29,High school degree,No,Male,No,No,No,E-service,No
+248,Zone 1,24,26,Unmarried,7,55,High school degree,No,Female,No,No,No,Basic service,No
+249,Zone 3,33,55,Married,21,64,Some college,No,Female,No,No,Yes,Basic service,No
+250,Zone 2,33,33,Married,12,42,College degree,No,Female,Yes,No,No,E-service,No
+251,Zone 1,2,40,Unmarried,9,134,College degree,No,Male,No,Yes,No,Basic service,No
+252,Zone 2,42,48,Married,22,82,Did not complete high school,No,Female,No,Yes,Yes,Total service,No
+253,Zone 1,52,54,Married,5,153,Post-undergraduate degree,No,Male,Yes,Yes,No,E-service,Yes
+254,Zone 1,45,66,Unmarried,43,144,High school degree,No,Female,No,Yes,No,E-service,No
+255,Zone 3,3,25,Unmarried,4,22,College degree,No,Male,Yes,Yes,Yes,Total service,Yes
+256,Zone 2,37,53,Married,16,35,Did not complete high school,No,Female,No,No,Yes,Plus service,No
+257,Zone 2,28,57,Unmarried,33,82,College degree,No,Female,Yes,Yes,Yes,E-service,Yes
+258,Zone 3,40,63,Married,9,61,Did not complete high school,No,Male,No,No,No,Basic service,No
+259,Zone 2,37,33,Unmarried,1,102,High school degree,No,Male,No,Yes,No,Total service,No
+260,Zone 3,7,27,Unmarried,5,31,Some college,No,Male,Yes,Yes,Yes,Total service,Yes
+261,Zone 1,71,56,Unmarried,23,170,Did not complete high school,No,Female,Yes,No,Yes,Total service,No
+262,Zone 2,19,46,Unmarried,11,26,High school degree,No,Female,No,Yes,No,Basic service,No
+263,Zone 2,61,40,Unmarried,15,85,Some college,No,Female,No,No,Yes,Plus service,No
+264,Zone 3,70,53,Married,16,183,High school degree,No,Female,No,No,No,E-service,No
+265,Zone 2,60,55,Married,13,67,Did not complete high school,No,Female,No,No,No,Basic service,No
+266,Zone 3,48,45,Married,5,42,Did not complete high school,No,Female,No,No,No,Basic service,No
+267,Zone 1,8,63,Married,1,31,Did not complete high school,No,Male,No,No,Yes,Plus service,No
+268,Zone 2,58,58,Married,10,96,High school degree,No,Male,No,No,No,Plus service,No
+269,Zone 1,16,24,Married,5,24,Some college,No,Male,No,No,Yes,Plus service,No
+270,Zone 2,33,33,Unmarried,4,53,High school degree,No,Female,No,No,No,Basic service,No
+271,Zone 2,39,25,Unmarried,4,18,Did not complete high school,No,Female,No,No,No,Plus service,No
+272,Zone 1,62,51,Unmarried,10,43,College degree,No,Male,No,Yes,No,E-service,No
+273,Zone 1,50,34,Unmarried,10,104,Some college,No,Male,Yes,Yes,Yes,Total service,No
+274,Zone 2,48,55,Unmarried,31,26,Did not complete high school,No,Male,No,No,No,Basic service,No
+275,Zone 3,31,62,Unmarried,5,56,High school degree,No,Female,Yes,No,Yes,Plus service,No
+276,Zone 2,65,33,Married,9,49,High school degree,No,Male,No,No,Yes,E-service,No
+277,Zone 1,36,58,Unmarried,34,80,Did not complete high school,No,Female,No,No,No,E-service,No
+278,Zone 1,61,46,Unmarried,5,318,Some college,No,Female,Yes,No,Yes,Plus service,No
+279,Zone 2,48,42,Unmarried,21,35,College degree,No,Male,No,No,Yes,Plus service,No
+280,Zone 3,35,45,Unmarried,17,29,Did not complete high school,No,Male,No,No,Yes,Basic service,No
+281,Zone 1,51,28,Unmarried,8,43,Post-undergraduate degree,No,Male,Yes,Yes,Yes,Total service,No
+282,Zone 2,49,51,Married,5,80,Post-undergraduate degree,No,Male,Yes,Yes,Yes,Total service,Yes
+283,Zone 1,35,39,Married,11,30,Some college,No,Female,No,No,Yes,Plus service,Yes
+284,Zone 1,58,70,Unmarried,2,9,Some college,Yes,Female,No,Yes,No,E-service,No
+285,Zone 1,23,35,Married,0,23,High school degree,No,Male,No,No,Yes,Plus service,No
+286,Zone 2,26,39,Married,15,58,College degree,No,Female,No,Yes,Yes,Plus service,No
+287,Zone 1,38,37,Married,1,52,Did not complete high school,No,Female,Yes,No,Yes,Total service,No
+288,Zone 1,35,66,Married,44,14,Some college,Yes,Female,No,No,Yes,Plus service,No
+289,Zone 2,37,50,Unmarried,9,110,High school degree,No,Female,No,No,Yes,Plus service,No
+290,Zone 2,48,43,Married,1,60,High school degree,No,Male,No,No,No,E-service,No
+291,Zone 3,13,43,Married,1,123,Some college,No,Male,No,Yes,Yes,Total service,No
+292,Zone 1,72,63,Married,29,15,Post-undergraduate degree,Yes,Male,No,No,Yes,Plus service,No
+293,Zone 1,30,27,Unmarried,4,47,College degree,No,Female,No,Yes,No,E-service,Yes
+294,Zone 1,24,43,Unmarried,14,138,College degree,No,Female,No,Yes,No,Plus service,No
+295,Zone 2,25,51,Married,20,359,Some college,No,Male,Yes,No,Yes,Total service,No
+296,Zone 2,50,52,Unmarried,30,214,Some college,No,Male,Yes,Yes,Yes,Total service,No
+297,Zone 2,28,40,Unmarried,7,64,Did not complete high school,No,Male,No,No,No,Plus service,No
+298,Zone 3,34,51,Unmarried,8,50,College degree,No,Male,Yes,No,No,Basic service,No
+299,Zone 1,48,32,Unmarried,2,88,Some college,No,Male,Yes,Yes,Yes,Total service,No
+300,Zone 2,42,36,Married,8,86,High school degree,No,Female,No,No,No,E-service,No
+301,Zone 3,67,65,Married,30,17,Did not complete high school,Yes,Female,No,No,Yes,Plus service,No
+302,Zone 1,17,41,Married,7,25,High school degree,No,Male,No,Yes,Yes,Plus service,No
+303,Zone 1,29,38,Married,19,46,High school degree,No,Male,No,No,No,E-service,No
+304,Zone 3,66,61,Unmarried,26,361,Did not complete high school,No,Female,No,No,No,E-service,No
+305,Zone 2,1,21,Unmarried,1,18,Some college,No,Female,No,Yes,No,Basic service,Yes
+306,Zone 1,28,33,Married,3,14,College degree,No,Male,No,Yes,Yes,Total service,Yes
+307,Zone 1,15,35,Married,5,34,Some college,No,Male,No,Yes,No,E-service,Yes
+308,Zone 2,12,64,Unmarried,13,9,High school degree,Yes,Female,No,Yes,Yes,Plus service,No
+309,Zone 3,48,49,Unmarried,18,39,High school degree,No,Female,Yes,No,Yes,Total service,Yes
+310,Zone 2,59,25,Married,4,18,Some college,No,Male,No,No,No,Basic service,No
+311,Zone 3,8,26,Married,1,25,College degree,No,Male,No,Yes,No,Basic service,Yes
+312,Zone 1,45,52,Unmarried,15,46,Post-undergraduate degree,No,Female,No,No,No,E-service,Yes
+313,Zone 1,25,39,Married,8,94,College degree,No,Female,No,No,No,E-service,Yes
+314,Zone 1,21,44,Married,4,26,Some college,No,Male,Yes,Yes,Yes,Total service,No
+315,Zone 2,17,68,Married,1,335,Did not complete high school,No,Female,Yes,No,Yes,Total service,No
+316,Zone 2,41,45,Unmarried,14,25,Some college,No,Male,No,Yes,Yes,Basic service,Yes
+317,Zone 1,13,45,Married,3,99,Some college,No,Female,Yes,Yes,Yes,Plus service,Yes
+318,Zone 2,1,26,Married,3,30,High school degree,No,Female,No,No,No,Basic service,Yes
+319,Zone 3,3,31,Married,4,35,High school degree,No,Female,Yes,Yes,Yes,Total service,Yes
+320,Zone 1,23,27,Married,2,51,Post-undergraduate degree,No,Female,Yes,No,No,Basic service,Yes
+321,Zone 3,26,42,Unmarried,20,49,Some college,No,Male,Yes,Yes,Yes,Total service,Yes
+322,Zone 1,37,51,Married,15,54,Did not complete high school,No,Male,No,No,No,Plus service,No
+323,Zone 3,5,30,Unmarried,3,46,College degree,No,Male,No,Yes,No,E-service,Yes
+324,Zone 1,32,27,Married,3,91,College degree,No,Female,Yes,Yes,No,Total service,Yes
+325,Zone 3,12,22,Unmarried,1,23,College degree,No,Male,No,No,Yes,Basic service,No
+326,Zone 1,72,54,Married,6,345,Did not complete high school,No,Male,No,No,No,Plus service,No
+327,Zone 3,3,25,Married,2,45,College degree,No,Female,No,Yes,No,Basic service,Yes
+328,Zone 1,54,43,Unmarried,12,53,High school degree,No,Male,No,No,Yes,Plus service,No
+329,Zone 2,26,26,Unmarried,2,14,High school degree,No,Female,No,Yes,Yes,Total service,Yes
+330,Zone 3,14,36,Unmarried,13,67,Post-undergraduate degree,No,Female,No,Yes,No,Basic service,No
+331,Zone 3,22,51,Unmarried,27,49,Some college,No,Male,No,No,Yes,Basic service,No
+332,Zone 3,65,47,Married,18,37,Did not complete high school,No,Female,No,No,No,Basic service,No
+333,Zone 3,26,45,Unmarried,18,33,Did not complete high school,No,Male,No,No,No,Basic service,No
+334,Zone 1,20,37,Unmarried,5,46,Some college,No,Female,Yes,Yes,Yes,Total service,No
+335,Zone 2,67,60,Married,32,93,Did not complete high school,No,Male,No,No,No,E-service,No
+336,Zone 1,34,55,Unmarried,2,48,High school degree,No,Male,No,No,No,Basic service,No
+337,Zone 1,37,54,Married,35,183,High school degree,No,Male,No,No,No,Plus service,No
+338,Zone 2,22,23,Married,3,16,Did not complete high school,No,Male,No,No,No,Basic service,No
+339,Zone 2,5,69,Unmarried,0,11,High school degree,Yes,Male,No,No,No,Basic service,No
+340,Zone 1,28,31,Married,0,42,College degree,No,Female,No,No,No,Plus service,No
+341,Zone 1,20,41,Married,7,67,College degree,No,Female,No,No,No,Basic service,No
+342,Zone 3,72,41,Unmarried,20,181,College degree,No,Male,Yes,Yes,No,Total service,No
+343,Zone 2,30,43,Unmarried,18,53,College degree,No,Male,No,Yes,No,Basic service,No
+344,Zone 3,71,52,Unmarried,17,172,High school degree,No,Male,Yes,Yes,Yes,Total service,No
+345,Zone 2,56,44,Unmarried,24,87,High school degree,No,Male,No,No,Yes,Plus service,No
+346,Zone 1,8,29,Married,2,21,Post-undergraduate degree,No,Male,No,No,No,Basic service,Yes
+347,Zone 2,32,65,Unmarried,6,9,High school degree,Yes,Female,No,Yes,No,E-service,No
+348,Zone 2,46,47,Unmarried,22,144,Some college,No,Female,No,No,Yes,Plus service,Yes
+349,Zone 3,60,45,Married,23,117,College degree,No,Male,Yes,Yes,Yes,Total service,No
+350,Zone 2,42,32,Married,0,59,College degree,No,Female,Yes,Yes,Yes,Total service,No
+351,Zone 3,71,60,Married,39,508,College degree,No,Male,Yes,No,Yes,Total service,No
+352,Zone 2,72,63,Married,40,222,High school degree,Yes,Female,No,No,Yes,Plus service,No
+353,Zone 3,45,66,Unmarried,11,87,Some college,Yes,Female,No,No,No,Basic service,No
+354,Zone 3,5,31,Unmarried,4,34,Did not complete high school,No,Male,Yes,No,Yes,Plus service,Yes
+355,Zone 2,17,38,Married,19,18,College degree,No,Female,No,No,No,E-service,No
+356,Zone 2,70,55,Unmarried,12,65,Some college,No,Male,Yes,No,Yes,Plus service,No
+357,Zone 3,57,57,Married,19,130,Some college,No,Female,No,Yes,No,E-service,No
+358,Zone 1,20,33,Unmarried,13,44,Some college,No,Female,No,No,Yes,E-service,No
+359,Zone 1,72,52,Married,21,63,Did not complete high school,No,Male,No,No,Yes,Plus service,No
+360,Zone 3,32,50,Unmarried,28,57,College degree,No,Male,No,No,Yes,Plus service,No
+361,Zone 3,22,57,Married,7,264,Did not complete high school,No,Female,No,No,Yes,Plus service,No
+362,Zone 2,6,24,Unmarried,2,28,Did not complete high school,No,Male,No,No,Yes,Plus service,Yes
+363,Zone 3,32,23,Married,2,26,Some college,No,Female,Yes,Yes,Yes,Total service,No
+364,Zone 1,38,33,Unmarried,3,38,College degree,No,Male,No,Yes,No,E-service,No
+365,Zone 1,53,35,Unmarried,15,59,Some college,No,Female,No,No,Yes,Plus service,No
+366,Zone 3,37,76,Unmarried,38,117,College degree,No,Female,No,No,No,Basic service,No
+367,Zone 1,47,35,Married,13,70,College degree,No,Female,Yes,Yes,No,Total service,Yes
+368,Zone 3,69,59,Unmarried,37,104,High school degree,No,Male,Yes,No,Yes,Plus service,No
+369,Zone 3,63,56,Unmarried,17,71,Some college,No,Female,No,No,No,Basic service,No
+370,Zone 1,61,34,Married,0,70,Some college,No,Female,Yes,Yes,Yes,Total service,Yes
+371,Zone 1,56,38,Married,8,56,College degree,No,Male,No,Yes,No,Total service,No
+372,Zone 3,40,57,Married,18,68,Did not complete high school,No,Male,No,No,No,Plus service,No
+373,Zone 2,61,45,Unmarried,21,80,High school degree,No,Female,No,No,No,E-service,No
+374,Zone 2,16,26,Unmarried,7,21,College degree,No,Male,Yes,Yes,Yes,Total service,No
+375,Zone 2,7,43,Unmarried,4,69,Some college,No,Female,No,No,No,Basic service,No
+376,Zone 3,20,31,Married,10,39,High school degree,No,Female,No,No,No,Basic service,No
+377,Zone 2,35,38,Unmarried,7,90,High school degree,No,Male,No,Yes,No,E-service,No
+378,Zone 1,60,37,Married,12,64,Post-undergraduate degree,No,Female,No,No,No,E-service,No
+379,Zone 2,47,25,Unmarried,2,28,High school degree,No,Male,Yes,No,Yes,Total service,No
+380,Zone 2,33,28,Married,3,24,High school degree,No,Female,No,No,No,Basic service,No
+381,Zone 3,12,34,Unmarried,2,44,High school degree,No,Male,No,No,No,Basic service,No
+382,Zone 1,10,31,Unmarried,0,32,College degree,No,Female,No,Yes,No,E-service,Yes
+383,Zone 2,69,33,Married,9,52,College degree,No,Female,No,No,Yes,Plus service,No
+384,Zone 1,23,20,Unmarried,1,15,Some college,No,Female,No,No,No,E-service,No
+385,Zone 1,53,31,Unmarried,10,46,Some college,No,Male,No,Yes,No,E-service,No
+386,Zone 2,60,57,Married,14,107,High school degree,No,Female,No,No,Yes,Plus service,No
+387,Zone 2,33,33,Unmarried,7,56,High school degree,No,Male,No,No,No,Basic service,No
+388,Zone 3,67,40,Married,21,40,College degree,No,Female,Yes,Yes,Yes,Total service,No
+389,Zone 3,15,38,Married,5,56,Some college,No,Male,No,No,Yes,Plus service,No
+390,Zone 3,64,31,Married,5,46,High school degree,No,Female,Yes,Yes,Yes,E-service,No
+391,Zone 2,46,49,Married,13,51,High school degree,No,Male,No,No,No,Basic service,Yes
+392,Zone 2,72,60,Married,33,12,Did not complete high school,Yes,Male,Yes,No,Yes,Total service,No
+393,Zone 1,61,43,Married,6,34,Post-undergraduate degree,No,Male,Yes,Yes,Yes,Total service,Yes
+394,Zone 3,54,27,Unmarried,3,27,High school degree,No,Female,Yes,Yes,No,Total service,No
+395,Zone 3,28,36,Unmarried,3,42,Some college,No,Female,No,Yes,Yes,Plus service,No
+396,Zone 2,28,38,Unmarried,8,119,Post-undergraduate degree,No,Male,Yes,Yes,No,Total service,Yes
+397,Zone 2,32,43,Unmarried,13,146,Did not complete high school,No,Female,No,No,Yes,Plus service,No
+398,Zone 2,52,46,Unmarried,17,51,High school degree,No,Female,No,No,No,E-service,No
+399,Zone 1,48,62,Unmarried,33,86,Did not complete high school,Yes,Female,Yes,No,Yes,Plus service,No
+400,Zone 3,52,42,Married,17,27,Some college,No,Female,No,Yes,Yes,Plus service,No
+401,Zone 1,37,43,Unmarried,8,38,Some college,No,Male,No,No,No,E-service,No
+402,Zone 1,41,52,Unmarried,26,928,Some college,No,Male,Yes,No,Yes,Plus service,No
+403,Zone 2,43,27,Married,3,21,High school degree,No,Female,No,No,No,E-service,No
+404,Zone 3,67,60,Unmarried,24,24,Did not complete high school,No,Female,Yes,No,Yes,Plus service,No
+405,Zone 3,61,52,Married,30,91,Did not complete high school,No,Female,No,No,No,Basic service,No
+406,Zone 3,70,39,Married,20,38,High school degree,No,Female,No,No,No,Plus service,No
+407,Zone 3,44,32,Married,1,96,College degree,No,Female,Yes,Yes,Yes,Total service,No
+408,Zone 3,46,45,Unmarried,12,96,Some college,No,Male,No,Yes,No,E-service,No
+409,Zone 3,39,34,Unmarried,2,54,Some college,No,Male,No,No,No,Basic service,No
+410,Zone 2,39,59,Unmarried,20,1668,College degree,No,Female,Yes,Yes,No,E-service,No
+411,Zone 2,50,29,Married,10,53,College degree,No,Female,Yes,No,Yes,Total service,No
+412,Zone 3,5,31,Unmarried,1,21,Some college,No,Female,No,No,No,Basic service,Yes
+413,Zone 2,10,34,Unmarried,1,52,Post-undergraduate degree,No,Female,No,Yes,No,E-service,Yes
+414,Zone 1,72,69,Unmarried,45,17,Some college,Yes,Female,No,No,No,E-service,No
+415,Zone 2,68,60,Unmarried,40,262,High school degree,No,Female,No,No,Yes,Plus service,No
+416,Zone 3,58,28,Unmarried,5,34,Post-undergraduate degree,No,Female,Yes,Yes,No,E-service,No
+417,Zone 3,18,44,Married,10,107,Did not complete high school,No,Female,No,No,No,Basic service,No
+418,Zone 1,65,45,Married,25,67,Post-undergraduate degree,No,Female,No,No,No,Plus service,No
+419,Zone 3,8,45,Unmarried,1,37,College degree,No,Male,No,Yes,No,E-service,Yes
+420,Zone 2,1,20,Unmarried,1,21,High school degree,No,Female,Yes,No,No,Basic service,Yes
+421,Zone 3,42,58,Unmarried,7,22,Did not complete high school,No,Female,No,No,No,E-service,No
+422,Zone 1,4,25,Married,3,71,Some college,No,Female,Yes,Yes,No,Basic service,No
+423,Zone 3,17,35,Unmarried,4,77,Some college,No,Female,No,No,Yes,Plus service,No
+424,Zone 2,8,24,Married,1,18,College degree,No,Female,Yes,Yes,Yes,Total service,Yes
+425,Zone 1,49,37,Married,17,50,High school degree,No,Female,No,No,No,E-service,No
+426,Zone 1,56,46,Married,21,33,College degree,No,Male,No,Yes,No,E-service,No
+427,Zone 1,62,57,Married,21,94,Did not complete high school,No,Male,No,No,Yes,Total service,No
+428,Zone 2,42,57,Married,25,209,Did not complete high school,No,Female,No,No,No,Basic service,No
+429,Zone 1,13,32,Unmarried,7,31,College degree,No,Male,Yes,No,Yes,Plus service,No
+430,Zone 1,69,46,Married,18,66,High school degree,No,Male,No,No,No,E-service,No
+431,Zone 2,45,59,Unmarried,14,51,Did not complete high school,No,Male,No,No,No,Basic service,No
+432,Zone 2,66,42,Married,18,118,High school degree,No,Male,No,No,No,E-service,No
+433,Zone 2,15,35,Unmarried,10,25,High school degree,No,Male,No,Yes,No,Basic service,Yes
+434,Zone 1,41,44,Married,1,59,Some college,No,Female,Yes,Yes,No,E-service,No
+435,Zone 2,11,20,Unmarried,1,20,High school degree,No,Female,Yes,Yes,Yes,Total service,Yes
+436,Zone 3,45,30,Married,0,63,Post-undergraduate degree,No,Male,Yes,Yes,Yes,Total service,Yes
+437,Zone 1,52,62,Unmarried,23,36,College degree,No,Male,No,No,No,Basic service,No
+438,Zone 1,42,56,Unmarried,24,72,College degree,No,Female,Yes,Yes,Yes,Total service,No
+439,Zone 2,48,35,Unmarried,11,50,Did not complete high school,No,Male,Yes,No,No,Plus service,No
+440,Zone 3,4,31,Unmarried,5,39,High school degree,No,Male,Yes,Yes,Yes,Total service,Yes
+441,Zone 3,53,64,Married,10,54,High school degree,No,Female,Yes,Yes,Yes,Total service,No
+442,Zone 3,1,59,Unmarried,4,9,Did not complete high school,Yes,Male,No,No,Yes,Plus service,No
+443,Zone 3,19,30,Married,10,33,College degree,No,Male,Yes,Yes,Yes,Total service,No
+444,Zone 2,33,30,Unmarried,11,28,Did not complete high school,No,Male,No,No,Yes,Basic service,No
+445,Zone 3,42,36,Married,14,44,High school degree,No,Male,No,No,Yes,Plus service,No
+446,Zone 1,60,32,Unmarried,12,34,College degree,No,Female,No,No,No,E-service,No
+447,Zone 2,57,51,Married,7,68,College degree,No,Female,No,No,Yes,Plus service,No
+448,Zone 1,64,39,Unmarried,5,37,Did not complete high school,No,Male,No,No,No,Basic service,No
+449,Zone 2,28,20,Married,1,18,Some college,No,Male,Yes,Yes,No,Total service,No
+450,Zone 1,29,35,Married,10,55,High school degree,No,Male,No,No,Yes,Plus service,Yes
+451,Zone 1,46,31,Married,12,21,Did not complete high school,No,Male,No,No,Yes,Plus service,No
+452,Zone 1,22,41,Married,9,29,Some college,No,Male,No,No,No,Basic service,Yes
+453,Zone 2,10,56,Unmarried,26,9,High school degree,Yes,Male,No,No,No,Basic service,No
+454,Zone 3,50,41,Unmarried,16,138,High school degree,No,Female,No,No,No,E-service,Yes
+455,Zone 1,55,65,Unmarried,34,28,College degree,Yes,Female,Yes,No,Yes,Total service,No
+456,Zone 2,15,54,Unmarried,7,62,Did not complete high school,No,Male,No,No,No,Basic service,No
+457,Zone 1,31,32,Married,13,37,Some college,No,Female,Yes,Yes,Yes,Total service,No
+458,Zone 3,5,44,Unmarried,5,83,Did not complete high school,No,Female,No,No,No,E-service,Yes
+459,Zone 2,69,63,Unmarried,28,168,Did not complete high school,No,Female,No,No,Yes,Plus service,No
+460,Zone 2,26,27,Married,4,33,College degree,No,Male,Yes,Yes,Yes,Total service,Yes
+461,Zone 3,10,33,Married,2,66,Some college,No,Female,No,Yes,Yes,Basic service,Yes
+462,Zone 1,26,30,Unmarried,9,18,College degree,No,Male,Yes,No,Yes,Total service,Yes
+463,Zone 3,25,30,Unmarried,0,20,Did not complete high school,No,Female,No,No,No,Plus service,No
+464,Zone 3,30,23,Married,4,19,Some college,No,Male,No,Yes,No,E-service,No
+465,Zone 1,21,39,Married,7,25,High school degree,No,Male,No,No,Yes,Plus service,No
+466,Zone 1,71,46,Unmarried,27,119,Post-undergraduate degree,No,Female,Yes,Yes,Yes,Total service,No
+467,Zone 3,11,48,Married,5,323,College degree,No,Male,No,Yes,Yes,Plus service,Yes
+468,Zone 1,24,30,Married,7,45,Did not complete high school,No,Female,No,No,Yes,Basic service,No
+469,Zone 1,65,59,Married,27,197,College degree,No,Male,No,No,No,E-service,No
+470,Zone 1,16,34,Married,13,56,Some college,No,Female,No,No,No,Basic service,Yes
+471,Zone 3,37,51,Married,26,24,College degree,No,Male,No,No,No,E-service,No
+472,Zone 1,5,30,Unmarried,4,25,Some college,No,Male,No,No,Yes,Plus service,Yes
+473,Zone 1,3,55,Married,9,26,Post-undergraduate degree,No,Female,Yes,Yes,No,E-service,Yes
+474,Zone 1,5,32,Unmarried,6,33,College degree,No,Male,No,Yes,No,Basic service,Yes
+475,Zone 1,60,44,Married,4,150,High school degree,No,Male,Yes,No,Yes,Total service,No
+476,Zone 2,19,37,Married,4,99,High school degree,No,Female,No,Yes,No,E-service,Yes
+477,Zone 3,54,40,Unmarried,19,50,College degree,No,Female,Yes,Yes,Yes,Total service,No
+478,Zone 2,25,41,Unmarried,3,81,Some college,No,Female,No,No,Yes,Plus service,No
+479,Zone 2,1,36,Unmarried,6,21,Did not complete high school,No,Male,No,No,No,E-service,Yes
+480,Zone 3,54,68,Unmarried,7,273,Some college,No,Female,No,Yes,No,Basic service,No
+481,Zone 1,14,31,Married,9,39,Some college,No,Female,No,No,No,Basic service,No
+482,Zone 3,14,28,Married,7,17,High school degree,No,Male,No,No,No,Basic service,Yes
+483,Zone 2,10,45,Married,8,115,Some college,No,Female,No,Yes,No,E-service,Yes
+484,Zone 1,7,23,Unmarried,3,27,High school degree,No,Female,No,No,Yes,Basic service,No
+485,Zone 2,33,45,Unmarried,24,35,Did not complete high school,No,Male,No,No,Yes,Plus service,Yes
+486,Zone 1,3,23,Unmarried,2,20,High school degree,No,Male,Yes,Yes,No,Basic service,No
+487,Zone 2,56,58,Married,3,92,Did not complete high school,No,Male,No,No,No,Basic service,No
+488,Zone 2,54,56,Unmarried,8,207,High school degree,No,Female,No,No,Yes,Plus service,No
+489,Zone 1,72,55,Married,28,40,Did not complete high school,No,Male,No,No,No,E-service,No
+490,Zone 1,18,29,Unmarried,4,40,High school degree,No,Male,No,Yes,Yes,Plus service,No
+491,Zone 3,25,29,Unmarried,9,55,College degree,No,Male,No,No,No,Basic service,Yes
+492,Zone 1,42,62,Unmarried,26,26,Did not complete high school,Yes,Female,No,No,No,Basic service,No
+493,Zone 3,4,37,Unmarried,2,41,High school degree,No,Male,No,Yes,No,Basic service,No
+494,Zone 2,12,50,Married,16,203,College degree,No,Male,No,No,No,Basic service,Yes
+495,Zone 2,53,64,Married,17,380,High school degree,No,Female,No,No,Yes,Plus service,No
+496,Zone 2,13,38,Married,8,104,College degree,No,Male,Yes,Yes,Yes,Total service,Yes
+497,Zone 3,18,31,Married,12,24,Some college,No,Male,No,No,No,E-service,No
+498,Zone 3,67,42,Married,20,81,Some college,No,Female,Yes,No,Yes,Total service,No
+499,Zone 2,6,24,Unmarried,2,17,Did not complete high school,No,Male,No,No,No,Plus service,No
+500,Zone 1,25,46,Unmarried,13,45,Did not complete high school,No,Female,Yes,No,Yes,Plus service,No
+501,Zone 2,15,39,Unmarried,19,32,High school degree,No,Male,Yes,No,No,E-service,Yes
+502,Zone 3,32,35,Unmarried,12,57,College degree,No,Male,No,No,No,E-service,No
+503,Zone 2,22,39,Unmarried,0,63,College degree,No,Male,No,Yes,No,E-service,Yes
+504,Zone 2,8,22,Unmarried,3,25,College degree,No,Male,Yes,No,Yes,Plus service,No
+505,Zone 1,3,31,Married,4,22,Did not complete high school,No,Male,No,Yes,No,Basic service,Yes
+506,Zone 2,32,54,Unmarried,6,155,High school degree,No,Male,No,No,No,Basic service,No
+507,Zone 1,49,54,Unmarried,24,30,High school degree,No,Male,No,No,Yes,E-service,No
+508,Zone 2,2,28,Unmarried,7,46,Some college,No,Female,No,No,No,Total service,No
+509,Zone 1,39,47,Unmarried,1,68,College degree,No,Female,No,Yes,No,E-service,Yes
+510,Zone 1,42,33,Unmarried,2,67,High school degree,No,Male,No,No,No,E-service,No
+511,Zone 1,28,36,Unmarried,3,69,Some college,No,Male,Yes,No,Yes,Total service,No
+512,Zone 2,41,46,Married,14,47,High school degree,No,Male,Yes,No,Yes,Total service,No
+513,Zone 3,67,50,Married,31,83,High school degree,No,Male,No,No,No,E-service,No
+514,Zone 1,38,40,Unmarried,15,34,High school degree,No,Female,No,Yes,No,E-service,No
+515,Zone 2,18,38,Unmarried,8,45,High school degree,No,Female,Yes,Yes,Yes,Total service,Yes
+516,Zone 2,6,42,Married,17,29,High school degree,No,Female,Yes,No,Yes,Total service,No
+517,Zone 2,4,36,Unmarried,0,21,High school degree,No,Female,No,No,No,Basic service,No
+518,Zone 1,13,23,Married,3,30,Some college,No,Female,Yes,Yes,Yes,Total service,No
+519,Zone 1,20,35,Unmarried,0,78,College degree,No,Male,Yes,Yes,Yes,Total service,Yes
+520,Zone 1,34,49,Married,27,61,Some college,No,Female,No,No,Yes,Plus service,No
+521,Zone 1,46,29,Married,4,90,Post-undergraduate degree,No,Male,Yes,Yes,Yes,Total service,No
+522,Zone 1,48,41,Unmarried,21,43,High school degree,No,Male,No,No,No,E-service,No
+523,Zone 3,69,61,Married,12,301,High school degree,No,Male,Yes,No,Yes,Plus service,No
+524,Zone 1,32,34,Married,7,32,High school degree,No,Male,No,No,No,Basic service,No
+525,Zone 1,29,29,Unmarried,9,41,High school degree,No,Male,No,No,Yes,E-service,No
+526,Zone 3,55,52,Unmarried,22,127,Did not complete high school,No,Female,Yes,No,No,E-service,No
+527,Zone 3,72,60,Married,36,271,Did not complete high school,No,Female,No,No,Yes,Plus service,No
+528,Zone 3,29,26,Unmarried,1,32,Some college,No,Female,Yes,No,No,Basic service,Yes
+529,Zone 2,50,25,Married,1,36,College degree,No,Female,Yes,No,Yes,Total service,No
+530,Zone 3,35,50,Married,11,293,Some college,No,Male,No,No,No,Basic service,Yes
+531,Zone 3,11,63,Unmarried,9,41,Some college,No,Male,No,Yes,No,Basic service,Yes
+532,Zone 1,9,29,Unmarried,9,39,Some college,No,Female,No,No,No,Basic service,No
+533,Zone 2,51,48,Unmarried,27,58,Did not complete high school,No,Male,No,No,Yes,Plus service,Yes
+534,Zone 1,33,34,Married,2,28,Did not complete high school,No,Female,No,Yes,No,E-service,No
+535,Zone 1,25,20,Unmarried,0,15,High school degree,No,Male,No,No,Yes,Plus service,No
+536,Zone 3,31,34,Unmarried,9,105,College degree,No,Female,No,No,No,Plus service,No
+537,Zone 2,67,40,Married,10,80,College degree,No,Female,Yes,Yes,Yes,Total service,No
+538,Zone 3,55,45,Unmarried,8,36,High school degree,No,Male,Yes,No,Yes,Plus service,No
+539,Zone 3,19,50,Unmarried,7,112,College degree,No,Female,Yes,No,No,Total service,No
+540,Zone 1,39,34,Married,11,55,College degree,No,Female,Yes,Yes,Yes,Total service,No
+541,Zone 2,52,35,Married,8,40,College degree,No,Male,Yes,No,Yes,Plus service,No
+542,Zone 3,55,37,Married,15,23,High school degree,No,Female,No,No,Yes,Plus service,No
+543,Zone 2,25,62,Unmarried,27,28,College degree,Yes,Female,Yes,No,Yes,Total service,Yes
+544,Zone 3,33,58,Unmarried,12,21,High school degree,Yes,Female,No,No,No,Basic service,No
+545,Zone 2,48,35,Unmarried,5,63,College degree,No,Male,No,No,Yes,Plus service,Yes
+546,Zone 2,48,31,Married,12,52,College degree,No,Male,Yes,Yes,Yes,Total service,No
+547,Zone 2,49,57,Unmarried,3,189,Did not complete high school,No,Female,No,No,No,Basic service,No
+548,Zone 3,54,32,Married,0,50,Did not complete high school,No,Male,No,No,Yes,Plus service,Yes
+549,Zone 1,45,32,Married,9,23,Did not complete high school,No,Male,No,No,No,Basic service,No
+550,Zone 3,4,37,Married,1,33,High school degree,No,Female,No,Yes,No,Basic service,Yes
+551,Zone 3,49,27,Married,3,29,Some college,No,Female,Yes,Yes,No,E-service,Yes
+552,Zone 2,23,35,Unmarried,2,96,Some college,No,Male,Yes,Yes,Yes,Total service,Yes
+553,Zone 2,31,44,Unmarried,23,80,Post-undergraduate degree,No,Male,No,Yes,No,E-service,Yes
+554,Zone 2,55,44,Married,2,68,High school degree,No,Male,No,No,Yes,Plus service,No
+555,Zone 1,9,28,Unmarried,7,30,Did not complete high school,No,Female,No,No,No,Basic service,No
+556,Zone 2,55,57,Married,25,34,High school degree,No,Male,No,No,No,Basic service,No
+557,Zone 1,34,30,Unmarried,3,35,High school degree,No,Female,Yes,No,Yes,Plus service,No
+558,Zone 1,10,23,Unmarried,4,36,High school degree,No,Male,No,No,Yes,Plus service,No
+559,Zone 2,62,76,Unmarried,20,35,Some college,Yes,Female,No,No,No,E-service,No
+560,Zone 2,51,36,Unmarried,13,62,Some college,No,Male,Yes,Yes,Yes,Total service,No
+561,Zone 1,65,48,Unmarried,28,94,Did not complete high school,No,Male,No,No,No,E-service,No
+562,Zone 3,53,33,Unmarried,1,60,Did not complete high school,No,Male,Yes,No,Yes,Total service,No
+563,Zone 1,23,35,Unmarried,4,118,High school degree,No,Male,Yes,Yes,No,Basic service,Yes
+564,Zone 3,1,30,Unmarried,3,135,College degree,No,Male,No,Yes,No,Basic service,Yes
+565,Zone 3,66,55,Unmarried,20,80,High school degree,No,Female,No,No,Yes,Plus service,No
+566,Zone 3,8,27,Married,0,21,Some college,No,Female,No,Yes,No,E-service,No
+567,Zone 3,18,28,Married,3,22,Did not complete high school,No,Female,No,No,No,Basic service,No
+568,Zone 3,36,32,Married,3,63,College degree,No,Male,No,Yes,No,E-service,No
+569,Zone 1,13,40,Unmarried,16,142,High school degree,No,Female,No,No,No,Basic service,Yes
+570,Zone 3,4,44,Unmarried,15,32,Some college,No,Female,Yes,Yes,Yes,Plus service,Yes
+571,Zone 3,20,32,Unmarried,10,19,Some college,No,Male,No,Yes,No,E-service,No
+572,Zone 1,66,39,Married,12,60,College degree,No,Male,Yes,Yes,Yes,Total service,No
+573,Zone 3,67,47,Married,7,97,Did not complete high school,No,Male,No,No,Yes,Plus service,No
+574,Zone 1,11,24,Married,0,31,High school degree,No,Female,Yes,Yes,Yes,Total service,Yes
+575,Zone 1,6,26,Unmarried,7,30,Some college,No,Female,No,Yes,No,Basic service,Yes
+576,Zone 2,13,23,Married,4,31,Did not complete high school,No,Female,Yes,Yes,No,Basic service,No
+577,Zone 2,2,29,Married,3,44,High school degree,No,Female,Yes,Yes,Yes,Total service,Yes
+578,Zone 1,4,40,Unmarried,12,38,High school degree,No,Male,No,No,No,Basic service,No
+579,Zone 1,34,63,Married,10,23,High school degree,No,Female,Yes,Yes,Yes,Total service,No
+580,Zone 1,13,34,Married,6,37,Some college,No,Male,No,No,No,Plus service,No
+581,Zone 2,37,40,Married,14,26,High school degree,No,Male,No,No,No,E-service,No
+582,Zone 1,45,30,Married,8,38,High school degree,No,Male,No,No,Yes,Plus service,No
+583,Zone 2,71,70,Unmarried,30,153,Some college,Yes,Female,No,No,Yes,Plus service,No
+584,Zone 1,35,40,Unmarried,5,49,Did not complete high school,No,Female,No,No,No,Basic service,No
+585,Zone 3,44,41,Unmarried,21,51,Some college,No,Male,No,Yes,No,Basic service,No
+586,Zone 3,44,45,Married,19,88,Did not complete high school,No,Male,No,No,Yes,Plus service,No
+587,Zone 1,26,41,Married,20,19,Did not complete high school,No,Female,No,No,No,Basic service,No
+588,Zone 2,42,46,Married,9,31,Did not complete high school,No,Female,No,No,No,Basic service,No
+589,Zone 2,41,47,Married,6,90,High school degree,No,Male,No,Yes,No,Basic service,Yes
+590,Zone 1,31,24,Married,3,14,Did not complete high school,No,Male,No,No,No,Basic service,No
+591,Zone 3,62,63,Unmarried,43,341,High school degree,No,Male,Yes,Yes,No,Plus service,Yes
+592,Zone 1,12,23,Married,2,24,College degree,No,Female,Yes,Yes,Yes,Total service,No
+593,Zone 2,45,49,Married,27,81,High school degree,No,Female,No,No,Yes,Plus service,No
+594,Zone 1,47,34,Married,4,63,High school degree,No,Female,No,No,No,Basic service,No
+595,Zone 2,23,22,Married,1,27,Did not complete high school,No,Male,No,No,Yes,Plus service,No
+596,Zone 3,39,34,Unmarried,4,20,Post-undergraduate degree,No,Female,Yes,Yes,Yes,Total service,No
+597,Zone 2,19,26,Unmarried,2,48,Some college,No,Male,Yes,No,Yes,Plus service,No
+598,Zone 1,13,54,Unmarried,12,121,College degree,No,Male,No,No,Yes,Plus service,No
+599,Zone 2,5,33,Unmarried,6,39,Some college,No,Male,No,No,Yes,Total service,Yes
+600,Zone 2,11,19,Unmarried,0,21,High school degree,No,Male,No,No,No,Basic service,Yes
+601,Zone 3,4,32,Unmarried,2,53,College degree,No,Male,No,No,No,Basic service,Yes
+602,Zone 3,17,42,Unmarried,8,58,Did not complete high school,No,Male,Yes,Yes,No,E-service,Yes
+603,Zone 2,7,27,Unmarried,3,39,Some college,No,Male,No,No,Yes,Basic service,Yes
+604,Zone 1,19,65,Unmarried,3,108,Did not complete high school,No,Male,No,No,Yes,Plus service,No
+605,Zone 2,32,34,Married,0,38,Did not complete high school,No,Male,No,No,No,E-service,No
+606,Zone 2,53,51,Unmarried,31,245,College degree,No,Male,No,No,No,E-service,No
+607,Zone 1,51,38,Unmarried,19,51,Did not complete high school,No,Female,Yes,No,Yes,Plus service,No
+608,Zone 1,35,34,Unmarried,7,78,College degree,No,Female,No,No,No,Basic service,No
+609,Zone 1,3,31,Married,4,23,College degree,No,Male,Yes,No,Yes,Total service,Yes
+610,Zone 1,22,48,Unmarried,7,88,College degree,No,Male,No,Yes,No,Basic service,Yes
+611,Zone 3,17,21,Married,0,25,High school degree,No,Female,No,No,Yes,Plus service,No
+612,Zone 2,68,39,Unmarried,20,73,High school degree,No,Female,No,No,No,E-service,No
+613,Zone 2,27,41,Married,7,62,College degree,No,Female,No,No,No,Plus service,No
+614,Zone 3,68,52,Married,8,456,Some college,No,Female,No,No,Yes,Plus service,No
+615,Zone 3,56,42,Married,10,24,High school degree,No,Male,No,No,Yes,Plus service,No
+616,Zone 3,11,32,Unmarried,8,23,High school degree,No,Female,No,Yes,No,Basic service,No
+617,Zone 3,5,47,Unmarried,7,46,Did not complete high school,No,Female,No,No,Yes,Basic service,Yes
+618,Zone 3,16,50,Unmarried,5,263,High school degree,No,Female,No,No,Yes,Plus service,No
+619,Zone 2,59,30,Unmarried,2,34,College degree,No,Female,Yes,No,No,E-service,No
+620,Zone 1,60,64,Unmarried,14,33,High school degree,Yes,Male,Yes,No,Yes,Total service,No
+621,Zone 3,55,47,Unmarried,11,37,Did not complete high school,No,Male,No,No,No,Plus service,No
+622,Zone 1,18,56,Unmarried,22,296,High school degree,No,Male,No,No,No,Basic service,No
+623,Zone 2,16,22,Unmarried,0,26,Some college,No,Female,No,No,No,E-service,Yes
+624,Zone 1,35,57,Married,32,47,College degree,No,Male,No,Yes,No,E-service,No
+625,Zone 3,31,23,Married,1,31,Some college,No,Female,Yes,Yes,Yes,Total service,Yes
+626,Zone 2,20,49,Married,5,264,High school degree,No,Female,No,No,No,Basic service,No
+627,Zone 2,16,27,Unmarried,5,41,College degree,No,Female,Yes,Yes,Yes,Total service,Yes
+628,Zone 2,69,48,Married,27,55,High school degree,No,Male,No,No,Yes,Plus service,No
+629,Zone 3,69,66,Married,31,49,High school degree,No,Male,No,No,No,Basic service,No
+630,Zone 2,27,24,Married,3,26,Did not complete high school,No,Female,No,No,No,Basic service,Yes
+631,Zone 3,48,39,Unmarried,20,110,College degree,No,Male,No,No,Yes,Plus service,No
+632,Zone 1,18,52,Married,20,66,Did not complete high school,No,Female,No,Yes,Yes,Basic service,No
+633,Zone 2,24,40,Married,4,39,Some college,No,Female,No,No,Yes,Plus service,No
+634,Zone 2,17,42,Unmarried,6,31,High school degree,No,Male,Yes,No,No,Total service,Yes
+635,Zone 2,9,24,Married,3,26,College degree,No,Female,No,No,Yes,Basic service,No
+636,Zone 2,15,46,Unmarried,5,232,College degree,No,Female,Yes,Yes,Yes,Total service,Yes
+637,Zone 1,62,37,Married,10,43,College degree,No,Female,No,No,No,E-service,No
+638,Zone 1,9,41,Unmarried,12,39,College degree,No,Male,Yes,Yes,No,Basic service,Yes
+639,Zone 2,71,41,Married,10,73,High school degree,No,Female,No,No,Yes,Plus service,No
+640,Zone 2,62,59,Married,37,74,Did not complete high school,No,Male,No,No,Yes,Plus service,No
+641,Zone 2,20,38,Unmarried,19,237,College degree,No,Male,No,Yes,Yes,Total service,No
+642,Zone 1,19,33,Married,11,22,Did not complete high school,No,Male,No,No,No,Plus service,No
+643,Zone 2,49,61,Married,28,21,Did not complete high school,No,Male,No,No,Yes,Plus service,No
+644,Zone 3,3,64,Unmarried,3,9,High school degree,Yes,Male,No,No,No,Basic service,Yes
+645,Zone 1,33,36,Unmarried,2,41,Post-undergraduate degree,No,Male,Yes,Yes,No,Basic service,Yes
+646,Zone 2,38,44,Unmarried,1,50,College degree,No,Female,No,Yes,No,E-service,Yes
+647,Zone 3,42,48,Married,14,27,Some college,No,Female,Yes,No,Yes,Total service,No
+648,Zone 1,11,26,Unmarried,2,53,Some college,No,Male,Yes,Yes,Yes,Total service,Yes
+649,Zone 3,27,28,Married,0,58,Some college,No,Male,No,No,No,Plus service,No
+650,Zone 3,23,50,Unmarried,1,151,College degree,No,Female,No,No,No,Basic service,No
+651,Zone 2,4,38,Married,13,54,High school degree,No,Male,Yes,No,Yes,Plus service,No
+652,Zone 3,36,42,Unmarried,5,31,Did not complete high school,No,Female,No,No,No,Basic service,Yes
+653,Zone 2,37,42,Unmarried,10,115,Did not complete high school,No,Female,No,No,Yes,Plus service,No
+654,Zone 3,24,58,Married,30,24,Did not complete high school,No,Male,No,No,No,Basic service,No
+655,Zone 3,4,24,Unmarried,1,17,High school degree,No,Male,No,No,No,Basic service,Yes
+656,Zone 3,54,33,Unmarried,5,47,High school degree,No,Female,No,No,No,Plus service,No
+657,Zone 3,7,49,Unmarried,8,36,Did not complete high school,No,Female,No,No,Yes,Plus service,Yes
+658,Zone 1,10,28,Unmarried,9,75,College degree,No,Male,Yes,Yes,Yes,Total service,Yes
+659,Zone 3,24,35,Married,10,41,Post-undergraduate degree,No,Female,No,Yes,No,E-service,No
+660,Zone 3,12,31,Unmarried,8,18,College degree,No,Male,No,Yes,No,Basic service,Yes
+661,Zone 2,45,54,Unmarried,25,171,Some college,No,Female,No,No,Yes,Plus service,No
+662,Zone 3,59,55,Married,29,42,Some college,No,Female,No,No,No,E-service,No
+663,Zone 1,3,21,Married,1,36,Some college,No,Female,No,No,No,Basic service,No
+664,Zone 3,8,35,Unmarried,6,31,Post-undergraduate degree,No,Male,Yes,Yes,Yes,Total service,Yes
+665,Zone 1,16,59,Unmarried,5,207,High school degree,No,Female,No,No,Yes,Total service,No
+666,Zone 3,32,33,Unmarried,1,38,Did not complete high school,No,Female,No,No,No,Basic service,No
+667,Zone 1,8,49,Unmarried,14,134,College degree,No,Female,Yes,Yes,Yes,Total service,Yes
+668,Zone 1,9,28,Married,8,28,Some college,No,Male,No,Yes,No,E-service,Yes
+669,Zone 2,12,19,Married,0,15,High school degree,No,Female,No,No,No,E-service,No
+670,Zone 2,24,43,Married,15,48,College degree,No,Male,Yes,Yes,Yes,Total service,No
+671,Zone 3,72,75,Unmarried,48,14,High school degree,Yes,Female,No,No,No,E-service,No
+672,Zone 3,58,61,Unmarried,42,101,College degree,No,Female,No,Yes,No,E-service,No
+673,Zone 1,70,44,Married,24,87,High school degree,No,Male,Yes,No,Yes,Plus service,No
+674,Zone 3,9,25,Unmarried,3,27,Did not complete high school,No,Female,No,No,No,Basic service,Yes
+675,Zone 1,49,25,Unmarried,1,27,Post-undergraduate degree,No,Female,Yes,Yes,No,E-service,No
+676,Zone 3,52,54,Unmarried,7,59,Some college,No,Male,No,No,No,Plus service,No
+677,Zone 1,10,42,Married,10,294,College degree,No,Female,Yes,Yes,Yes,Total service,Yes
+678,Zone 1,14,52,Married,2,44,Some college,No,Male,Yes,No,No,Plus service,No
+679,Zone 1,19,27,Married,3,35,High school degree,No,Male,Yes,No,Yes,Total service,No
+680,Zone 3,12,36,Married,4,205,College degree,No,Female,Yes,Yes,No,E-service,Yes
+681,Zone 1,65,59,Unmarried,27,732,Some college,No,Female,Yes,No,Yes,E-service,No
+682,Zone 1,67,40,Married,14,59,Some college,No,Male,No,No,Yes,Plus service,No
+683,Zone 2,29,24,Married,3,23,Did not complete high school,No,Male,No,No,Yes,Plus service,No
+684,Zone 3,55,46,Unmarried,8,87,High school degree,No,Female,No,Yes,Yes,Basic service,No
+685,Zone 3,71,67,Married,25,110,Did not complete high school,No,Female,No,No,Yes,Plus service,No
+686,Zone 3,5,44,Married,2,83,Some college,No,Female,Yes,Yes,Yes,Plus service,Yes
+687,Zone 3,60,58,Unmarried,0,63,College degree,No,Female,No,No,No,E-service,No
+688,Zone 2,10,40,Unmarried,6,22,Some college,No,Female,No,Yes,No,Basic service,Yes
+689,Zone 3,52,64,Unmarried,44,43,Some college,No,Male,Yes,Yes,Yes,Total service,No
+690,Zone 2,61,43,Married,22,35,High school degree,No,Male,No,Yes,No,E-service,No
+691,Zone 1,61,29,Married,5,48,High school degree,No,Male,No,No,No,E-service,No
+692,Zone 2,67,47,Married,19,69,Some college,No,Male,No,No,Yes,Plus service,No
+693,Zone 3,41,42,Married,12,26,College degree,No,Male,No,Yes,Yes,E-service,No
+694,Zone 1,30,28,Unmarried,1,20,Did not complete high school,No,Female,No,No,No,Basic service,Yes
+695,Zone 1,24,46,Unmarried,12,43,High school degree,No,Male,Yes,No,Yes,Total service,No
+696,Zone 1,72,75,Unmarried,37,33,Did not complete high school,Yes,Female,No,No,No,E-service,No
+697,Zone 2,17,35,Unmarried,7,66,High school degree,No,Male,Yes,Yes,Yes,Total service,Yes
+698,Zone 2,65,72,Unmarried,46,12,High school degree,Yes,Male,No,No,Yes,Plus service,No
+699,Zone 1,15,30,Married,8,90,High school degree,No,Male,No,Yes,Yes,Total service,No
+700,Zone 1,34,33,Unmarried,8,35,Some college,No,Female,No,No,No,E-service,Yes
+701,Zone 1,26,43,Unmarried,23,51,Post-undergraduate degree,No,Female,No,Yes,No,E-service,Yes
+702,Zone 2,36,45,Unmarried,22,117,Some college,No,Female,No,No,No,E-service,No
+703,Zone 1,60,48,Unmarried,29,100,High school degree,No,Female,No,No,Yes,Plus service,No
+704,Zone 1,16,54,Unmarried,20,147,Did not complete high school,No,Male,No,No,Yes,Plus service,No
+705,Zone 2,1,33,Unmarried,5,53,College degree,No,Female,No,No,No,Basic service,Yes
+706,Zone 3,56,30,Married,9,57,Post-undergraduate degree,No,Male,Yes,Yes,No,E-service,No
+707,Zone 2,6,50,Unmarried,5,37,High school degree,No,Male,No,No,No,E-service,No
+708,Zone 2,48,34,Unmarried,7,42,Some college,No,Female,No,No,No,E-service,No
+709,Zone 2,34,36,Married,17,50,Did not complete high school,No,Male,No,No,Yes,Plus service,No
+710,Zone 2,54,42,Married,0,55,College degree,No,Male,Yes,Yes,Yes,Total service,Yes
+711,Zone 3,38,31,Married,2,42,High school degree,No,Female,Yes,No,Yes,Total service,No
+712,Zone 2,25,55,Unmarried,15,37,Did not complete high school,No,Female,No,No,No,Basic service,Yes
+713,Zone 1,47,69,Married,17,228,Some college,No,Female,Yes,Yes,Yes,Total service,Yes
+714,Zone 1,72,62,Married,35,163,Post-undergraduate degree,No,Male,Yes,Yes,Yes,Total service,No
+715,Zone 2,6,35,Married,6,28,College degree,No,Female,No,Yes,Yes,Total service,No
+716,Zone 1,30,51,Married,9,118,Post-undergraduate degree,No,Female,No,No,No,Basic service,No
+717,Zone 1,65,70,Married,9,115,High school degree,Yes,Female,Yes,No,Yes,Total service,No
+718,Zone 1,22,44,Married,19,37,College degree,No,Male,Yes,No,Yes,Plus service,No
+719,Zone 1,60,53,Unmarried,32,93,Did not complete high school,No,Male,No,No,Yes,Plus service,No
+720,Zone 2,19,32,Unmarried,12,71,College degree,No,Female,Yes,Yes,Yes,Total service,Yes
+721,Zone 3,18,25,Unmarried,4,26,High school degree,No,Female,No,No,No,Basic service,No
+722,Zone 1,9,37,Married,10,14,College degree,No,Female,No,No,No,Basic service,Yes
+723,Zone 1,1,34,Married,6,18,Did not complete high school,No,Female,No,Yes,No,Basic service,Yes
+724,Zone 3,10,28,Married,2,36,College degree,No,Female,Yes,Yes,Yes,Total service,No
+725,Zone 3,45,34,Married,14,43,College degree,No,Male,No,Yes,No,E-service,Yes
+726,Zone 1,25,28,Married,6,41,College degree,No,Female,Yes,No,Yes,Plus service,Yes
+727,Zone 3,66,39,Unmarried,1,66,High school degree,No,Female,No,No,No,E-service,No
+728,Zone 1,27,67,Unmarried,1,33,College degree,Yes,Female,Yes,No,Yes,Plus service,Yes
+729,Zone 1,19,41,Unmarried,5,53,College degree,No,Male,No,No,No,Basic service,No
+730,Zone 2,17,41,Married,9,28,College degree,No,Male,No,No,No,Basic service,No
+731,Zone 2,16,36,Unmarried,13,58,College degree,No,Male,No,No,Yes,Basic service,No
+732,Zone 1,8,42,Married,2,129,College degree,No,Female,No,Yes,No,Basic service,No
+733,Zone 1,3,25,Unmarried,0,65,College degree,No,Female,Yes,Yes,No,Total service,Yes
+734,Zone 3,59,57,Unmarried,26,311,Some college,No,Female,No,No,No,Basic service,No
+735,Zone 2,45,37,Unmarried,2,57,Some college,No,Female,No,No,No,E-service,No
+736,Zone 1,66,62,Unmarried,31,47,High school degree,No,Female,No,No,No,E-service,No
+737,Zone 3,28,50,Married,7,25,Did not complete high school,No,Male,No,No,Yes,Basic service,No
+738,Zone 1,15,38,Married,11,46,Post-undergraduate degree,No,Male,No,No,No,Basic service,Yes
+739,Zone 3,39,34,Married,10,51,Some college,No,Female,Yes,No,Yes,Total service,No
+740,Zone 3,38,33,Unmarried,4,19,High school degree,No,Female,No,No,No,Plus service,No
+741,Zone 3,34,29,Unmarried,5,26,Some college,No,Female,No,Yes,No,E-service,No
+742,Zone 3,60,57,Married,18,72,Post-undergraduate degree,Yes,Male,Yes,Yes,Yes,Total service,No
+743,Zone 3,72,65,Married,33,71,Did not complete high school,Yes,Female,No,No,Yes,Plus service,No
+744,Zone 1,42,42,Married,9,41,High school degree,No,Male,Yes,No,Yes,Plus service,No
+745,Zone 3,32,37,Unmarried,9,44,High school degree,No,Male,No,No,No,Basic service,No
+746,Zone 3,48,50,Married,4,208,College degree,No,Female,Yes,Yes,No,Total service,Yes
+747,Zone 3,63,37,Married,1,45,College degree,No,Female,Yes,Yes,No,E-service,No
+748,Zone 3,45,27,Married,3,39,Some college,No,Male,No,No,Yes,E-service,No
+749,Zone 2,68,42,Unmarried,16,89,College degree,No,Male,No,Yes,No,E-service,No
+750,Zone 1,6,29,Married,4,19,High school degree,No,Female,No,No,No,Basic service,No
+751,Zone 1,68,57,Married,33,15,High school degree,No,Female,Yes,Yes,Yes,Total service,Yes
+752,Zone 3,72,68,Married,26,59,High school degree,Yes,Female,Yes,Yes,Yes,Total service,No
+753,Zone 3,53,38,Married,15,20,Some college,No,Female,No,Yes,Yes,E-service,No
+754,Zone 3,20,51,Married,11,27,College degree,No,Male,No,No,Yes,Plus service,No
+755,Zone 2,70,35,Married,4,48,High school degree,No,Male,No,No,No,E-service,No
+756,Zone 3,32,47,Unmarried,25,135,High school degree,No,Female,No,Yes,No,Basic service,No
+757,Zone 2,61,52,Married,23,19,Did not complete high school,No,Male,No,No,Yes,Plus service,Yes
+758,Zone 1,24,25,Married,3,28,College degree,No,Male,No,Yes,No,E-service,No
+759,Zone 2,56,61,Married,14,12,Did not complete high school,Yes,Female,No,No,No,Basic service,No
+760,Zone 3,54,59,Unmarried,28,28,High school degree,No,Male,No,Yes,No,E-service,No
+761,Zone 3,43,38,Married,7,18,Some college,No,Female,Yes,Yes,No,Total service,No
+762,Zone 1,19,35,Unmarried,7,58,Some college,No,Female,Yes,Yes,Yes,Total service,Yes
+763,Zone 3,5,43,Unmarried,16,72,Some college,No,Female,No,No,Yes,Plus service,No
+764,Zone 1,24,61,Married,6,112,College degree,No,Female,No,Yes,No,Basic service,Yes
+765,Zone 3,62,35,Married,2,28,High school degree,No,Female,No,No,No,E-service,No
+766,Zone 2,14,40,Unmarried,13,398,Post-undergraduate degree,No,Female,Yes,Yes,Yes,Total service,Yes
+767,Zone 3,60,48,Married,22,106,Some college,No,Female,Yes,No,Yes,Total service,No
+768,Zone 2,30,74,Married,12,10,Did not complete high school,Yes,Female,No,No,Yes,Plus service,No
+769,Zone 1,40,42,Married,16,108,Some college,No,Male,No,Yes,No,E-service,Yes
+770,Zone 2,42,50,Married,17,85,High school degree,No,Female,No,No,No,Basic service,No
+771,Zone 1,20,34,Unmarried,14,51,Some college,No,Female,No,Yes,No,E-service,Yes
+772,Zone 1,4,22,Married,1,22,High school degree,No,Female,No,No,Yes,Plus service,No
+773,Zone 2,44,49,Married,2,66,High school degree,No,Female,Yes,No,Yes,Total service,No
+774,Zone 3,49,63,Unmarried,18,10,High school degree,Yes,Male,No,No,Yes,Plus service,No
+775,Zone 3,5,36,Married,2,34,Did not complete high school,No,Female,No,No,Yes,Plus service,Yes
+776,Zone 3,70,50,Married,29,67,Did not complete high school,No,Male,No,No,No,E-service,No
+777,Zone 1,30,57,Married,16,19,Did not complete high school,No,Male,No,No,No,Basic service,Yes
+778,Zone 2,28,48,Unmarried,20,128,College degree,No,Female,Yes,Yes,Yes,Total service,Yes
+779,Zone 1,5,28,Married,3,39,Post-undergraduate degree,No,Male,Yes,Yes,Yes,Total service,No
+780,Zone 2,27,35,Unmarried,12,56,Did not complete high school,No,Female,Yes,No,Yes,Total service,No
+781,Zone 2,17,39,Unmarried,12,45,College degree,No,Female,No,No,No,Basic service,Yes
+782,Zone 1,4,37,Married,8,25,Did not complete high school,No,Female,No,No,No,Basic service,No
+783,Zone 1,30,23,Married,0,24,High school degree,No,Female,No,Yes,No,Plus service,No
+784,Zone 3,71,40,Married,19,53,College degree,No,Female,No,Yes,Yes,Total service,No
+785,Zone 3,67,77,Unmarried,55,49,Did not complete high school,Yes,Female,No,No,No,Basic service,No
+786,Zone 3,24,48,Married,3,38,Did not complete high school,No,Female,No,No,No,Basic service,No
+787,Zone 1,24,54,Married,7,84,Some college,No,Female,No,Yes,No,Basic service,Yes
+788,Zone 2,59,54,Unmarried,32,126,Did not complete high school,No,Female,No,No,Yes,Plus service,No
+789,Zone 3,59,32,Unmarried,9,73,College degree,No,Male,No,No,No,E-service,Yes
+790,Zone 3,44,37,Married,1,41,College degree,No,Female,Yes,Yes,No,E-service,No
+791,Zone 1,19,31,Married,0,22,College degree,No,Male,No,No,No,E-service,Yes
+792,Zone 2,58,46,Married,23,23,Did not complete high school,No,Female,No,Yes,No,Basic service,No
+793,Zone 1,41,53,Married,22,94,High school degree,No,Male,No,No,No,E-service,No
+794,Zone 2,16,33,Unmarried,1,30,Some college,No,Male,Yes,No,Yes,Plus service,Yes
+795,Zone 3,13,36,Unmarried,11,31,High school degree,No,Male,No,No,No,Basic service,Yes
+796,Zone 1,60,53,Unmarried,22,171,Did not complete high school,No,Female,No,No,Yes,Plus service,No
+797,Zone 2,72,49,Married,23,102,Did not complete high school,No,Female,No,No,No,E-service,No
+798,Zone 2,33,39,Unmarried,17,27,College degree,No,Female,Yes,Yes,No,Total service,No
+799,Zone 2,72,45,Married,25,98,College degree,No,Female,Yes,No,Yes,Total service,No
+800,Zone 1,66,54,Married,8,591,College degree,No,Female,Yes,No,Yes,Total service,No
+801,Zone 3,53,37,Married,7,25,Did not complete high school,No,Female,No,No,Yes,Plus service,No
+802,Zone 2,22,28,Married,0,36,College degree,No,Male,No,Yes,Yes,Total service,No
+803,Zone 2,14,26,Married,1,25,High school degree,No,Female,No,No,Yes,Plus service,No
+804,Zone 1,52,49,Unmarried,18,69,High school degree,No,Female,No,No,Yes,Plus service,No
+805,Zone 3,33,30,Married,5,22,Did not complete high school,No,Male,No,No,Yes,Plus service,No
+806,Zone 3,72,66,Unmarried,26,67,High school degree,Yes,Female,No,No,Yes,Plus service,No
+807,Zone 1,40,40,Married,3,73,College degree,No,Female,Yes,No,Yes,Plus service,Yes
+808,Zone 2,29,26,Unmarried,1,22,College degree,No,Female,Yes,Yes,Yes,Total service,Yes
+809,Zone 3,63,67,Unmarried,22,9,High school degree,Yes,Male,No,No,Yes,Plus service,No
+810,Zone 2,56,54,Unmarried,25,147,Some college,No,Female,No,Yes,No,E-service,No
+811,Zone 3,60,50,Married,26,239,High school degree,No,Female,Yes,No,Yes,Total service,No
+812,Zone 3,28,22,Married,3,23,Some college,No,Male,No,No,No,Basic service,No
+813,Zone 2,39,39,Unmarried,19,29,College degree,No,Male,No,Yes,No,E-service,No
+814,Zone 3,65,39,Married,18,32,High school degree,No,Male,No,No,Yes,Plus service,No
+815,Zone 3,29,31,Unmarried,7,30,Some college,No,Female,No,No,Yes,Plus service,No
+816,Zone 3,28,36,Unmarried,8,57,High school degree,No,Female,No,No,Yes,Plus service,No
+817,Zone 1,2,18,Unmarried,0,20,High school degree,No,Male,No,No,Yes,Plus service,Yes
+818,Zone 3,67,52,Unmarried,13,248,High school degree,No,Female,No,No,Yes,Plus service,No
+819,Zone 3,5,35,Married,9,59,Some college,No,Female,No,Yes,No,Total service,No
+820,Zone 3,48,35,Unmarried,10,24,High school degree,No,Male,No,No,Yes,Plus service,No
+821,Zone 2,10,26,Married,4,25,Did not complete high school,No,Female,No,No,No,Basic service,No
+822,Zone 2,17,28,Unmarried,3,37,Some college,No,Female,No,No,Yes,Plus service,Yes
+823,Zone 1,21,24,Married,0,30,College degree,No,Female,Yes,Yes,Yes,Total service,No
+824,Zone 2,25,51,Unmarried,9,66,College degree,No,Male,Yes,Yes,Yes,Total service,No
+825,Zone 3,44,31,Unmarried,8,16,Did not complete high school,No,Male,No,No,No,Basic service,Yes
+826,Zone 2,59,49,Unmarried,28,429,College degree,No,Female,No,No,Yes,Total service,Yes
+827,Zone 2,11,26,Unmarried,7,20,High school degree,No,Male,No,No,No,Basic service,No
+828,Zone 2,50,68,Married,32,262,Some college,No,Male,No,Yes,Yes,Plus service,No
+829,Zone 3,23,25,Married,2,28,Some college,No,Female,No,No,No,E-service,No
+830,Zone 1,17,19,Unmarried,0,18,High school degree,No,Female,No,Yes,No,E-service,Yes
+831,Zone 1,15,62,Married,3,144,Some college,No,Male,Yes,No,Yes,Plus service,No
+832,Zone 2,68,57,Married,38,33,Did not complete high school,No,Female,No,No,No,E-service,No
+833,Zone 1,69,42,Married,23,19,Some college,No,Female,No,Yes,No,Basic service,No
+834,Zone 1,30,24,Married,3,30,Did not complete high school,No,Female,No,No,No,Basic service,Yes
+835,Zone 3,22,30,Unmarried,8,41,High school degree,No,Male,Yes,No,No,Plus service,No
+836,Zone 2,10,20,Married,1,20,High school degree,No,Female,No,No,No,Basic service,Yes
+837,Zone 1,72,59,Married,12,65,Some college,No,Female,No,No,No,E-service,No
+838,Zone 2,34,24,Married,5,17,College degree,No,Female,No,No,No,Plus service,No
+839,Zone 2,43,49,Married,18,66,Did not complete high school,No,Male,No,No,No,Plus service,No
+840,Zone 3,31,37,Married,15,18,College degree,No,Male,Yes,Yes,Yes,Total service,No
+841,Zone 2,6,27,Married,5,26,College degree,No,Male,No,No,No,Basic service,Yes
+842,Zone 2,48,42,Unmarried,21,46,College degree,No,Male,No,No,Yes,Plus service,No
+843,Zone 2,50,25,Unmarried,6,19,Did not complete high school,No,Male,No,No,No,Basic service,No
+844,Zone 3,20,41,Married,19,58,High school degree,No,Female,No,No,No,E-service,No
+845,Zone 3,61,73,Unmarried,10,25,Did not complete high school,Yes,Male,No,No,No,Basic service,No
+846,Zone 2,6,21,Unmarried,0,15,High school degree,No,Female,No,No,No,Basic service,No
+847,Zone 2,1,22,Unmarried,2,35,High school degree,No,Male,No,Yes,No,Basic service,Yes
+848,Zone 1,21,43,Unmarried,13,41,High school degree,No,Female,Yes,Yes,Yes,Total service,Yes
+849,Zone 3,7,32,Unmarried,1,71,College degree,No,Male,No,Yes,Yes,Total service,No
+850,Zone 3,65,56,Married,19,608,Some college,No,Female,Yes,No,Yes,Total service,No
+851,Zone 1,64,37,Unmarried,10,44,College degree,No,Female,Yes,No,Yes,E-service,No
+852,Zone 3,4,30,Unmarried,0,41,High school degree,No,Male,No,No,Yes,Plus service,Yes
+853,Zone 1,67,45,Married,22,83,Some college,No,Female,No,No,Yes,E-service,No
+854,Zone 2,22,35,Unmarried,12,28,High school degree,No,Male,No,Yes,No,E-service,Yes
+855,Zone 3,51,37,Married,17,101,High school degree,No,Female,No,No,Yes,Plus service,No
+856,Zone 1,50,28,Unmarried,6,28,Did not complete high school,No,Female,No,No,Yes,Plus service,No
+857,Zone 1,31,47,Married,18,35,High school degree,No,Male,No,No,No,Basic service,No
+858,Zone 3,4,28,Unmarried,0,39,High school degree,No,Female,No,No,Yes,Plus service,Yes
+859,Zone 3,60,56,Unmarried,19,51,College degree,No,Male,Yes,Yes,Yes,Total service,No
+860,Zone 3,7,31,Married,12,31,High school degree,No,Female,No,No,No,Basic service,Yes
+861,Zone 3,20,40,Unmarried,2,209,College degree,No,Female,No,No,No,E-service,No
+862,Zone 2,19,23,Married,4,37,Some college,No,Female,No,No,No,Plus service,Yes
+863,Zone 3,58,37,Married,5,64,College degree,No,Female,Yes,Yes,Yes,Total service,Yes
+864,Zone 3,65,64,Unmarried,20,88,Some college,No,Female,Yes,Yes,Yes,Total service,Yes
+865,Zone 3,72,61,Married,34,61,Did not complete high school,No,Male,No,No,No,E-service,No
+866,Zone 3,8,42,Unmarried,3,66,Some college,No,Male,Yes,Yes,Yes,Total service,No
+867,Zone 2,33,40,Married,14,19,Some college,No,Male,No,No,No,Basic service,No
+868,Zone 3,18,34,Married,4,42,High school degree,No,Female,Yes,No,Yes,Total service,No
+869,Zone 2,24,31,Married,6,41,High school degree,No,Male,No,No,Yes,Plus service,No
+870,Zone 3,70,36,Unmarried,8,50,Did not complete high school,No,Female,No,No,No,E-service,No
+871,Zone 1,7,38,Unmarried,4,70,College degree,No,Male,Yes,Yes,No,Total service,Yes
+872,Zone 3,70,59,Unmarried,27,85,Did not complete high school,No,Female,No,No,Yes,Plus service,No
+873,Zone 2,20,48,Married,21,45,Some college,No,Female,Yes,No,Yes,Plus service,Yes
+874,Zone 3,54,32,Married,12,27,Did not complete high school,No,Male,No,No,No,E-service,No
+875,Zone 3,36,48,Unmarried,28,29,Did not complete high school,No,Male,No,No,No,Basic service,No
+876,Zone 3,71,53,Married,29,48,College degree,No,Female,No,No,Yes,Plus service,No
+877,Zone 1,17,41,Unmarried,4,32,High school degree,No,Male,No,No,Yes,Plus service,No
+878,Zone 1,18,45,Married,17,43,Did not complete high school,No,Male,No,No,Yes,Plus service,No
+879,Zone 1,16,27,Unmarried,8,16,Post-undergraduate degree,No,Female,No,No,Yes,Total service,Yes
+880,Zone 3,38,30,Married,6,22,High school degree,No,Female,No,Yes,No,E-service,No
+881,Zone 1,52,45,Married,19,40,Some college,No,Female,Yes,Yes,Yes,Total service,No
+882,Zone 1,46,48,Married,12,256,Some college,No,Male,Yes,Yes,Yes,Total service,No
+883,Zone 2,31,46,Unmarried,23,144,College degree,No,Male,No,Yes,Yes,Plus service,No
+884,Zone 2,23,31,Unmarried,10,45,College degree,No,Male,No,Yes,No,E-service,No
+885,Zone 2,38,56,Married,34,34,High school degree,No,Female,No,Yes,Yes,Plus service,No
+886,Zone 2,50,54,Unmarried,15,248,Some college,No,Female,No,No,Yes,Plus service,No
+887,Zone 2,16,49,Unmarried,17,41,High school degree,No,Male,Yes,Yes,Yes,Total service,No
+888,Zone 2,14,34,Married,4,27,College degree,No,Female,Yes,Yes,Yes,Total service,No
+889,Zone 2,30,52,Unmarried,23,17,Some college,No,Female,No,Yes,No,E-service,Yes
+890,Zone 3,22,47,Married,0,44,College degree,No,Female,Yes,Yes,Yes,Total service,Yes
+891,Zone 1,38,55,Married,12,135,High school degree,No,Male,Yes,Yes,Yes,Total service,No
+892,Zone 3,59,26,Married,3,41,College degree,No,Female,No,Yes,No,E-service,Yes
+893,Zone 2,54,55,Unmarried,1,587,Some college,No,Male,Yes,No,Yes,Plus service,No
+894,Zone 3,9,40,Unmarried,13,38,College degree,No,Female,Yes,Yes,Yes,Total service,Yes
+895,Zone 1,67,67,Married,38,49,High school degree,No,Female,No,Yes,No,E-service,No
+896,Zone 2,24,44,Unmarried,19,33,Some college,No,Female,No,No,No,Basic service,No
+897,Zone 2,12,55,Married,13,36,Did not complete high school,No,Female,No,Yes,No,E-service,Yes
+898,Zone 1,26,47,Unmarried,13,54,Some college,No,Male,Yes,Yes,No,E-service,No
+899,Zone 2,3,32,Unmarried,4,58,High school degree,No,Male,Yes,No,Yes,Total service,Yes
+900,Zone 2,20,46,Unmarried,2,23,Post-undergraduate degree,No,Female,Yes,Yes,Yes,Total service,No
+901,Zone 3,5,52,Married,0,97,Post-undergraduate degree,No,Male,Yes,Yes,Yes,Total service,Yes
+902,Zone 3,58,53,Unmarried,19,207,Some college,No,Female,Yes,Yes,Yes,Total service,Yes
+903,Zone 1,54,28,Married,2,21,Some college,No,Male,No,No,No,Basic service,No
+904,Zone 2,52,39,Unmarried,6,119,Some college,No,Female,No,No,No,Basic service,No
+905,Zone 2,38,30,Married,10,25,Did not complete high school,No,Female,No,No,No,Basic service,No
+906,Zone 2,19,46,Unmarried,5,59,Some college,No,Male,No,No,No,Basic service,No
+907,Zone 2,22,33,Married,2,24,Did not complete high school,No,Male,No,No,No,Basic service,No
+908,Zone 1,49,35,Married,15,113,College degree,No,Male,No,No,No,E-service,No
+909,Zone 3,5,39,Unmarried,0,22,Did not complete high school,No,Female,No,No,Yes,Plus service,No
+910,Zone 2,18,69,Unmarried,28,11,Did not complete high school,Yes,Male,No,No,No,Basic service,No
+911,Zone 3,43,29,Unmarried,4,33,Did not complete high school,No,Female,No,No,Yes,Plus service,No
+912,Zone 3,17,50,Unmarried,2,205,Post-undergraduate degree,No,Male,Yes,Yes,Yes,Total service,Yes
+913,Zone 2,37,33,Unmarried,4,41,Some college,No,Female,No,No,No,E-service,Yes
+914,Zone 2,8,39,Unmarried,0,39,Did not complete high school,No,Female,No,No,No,Basic service,No
+915,Zone 2,51,46,Married,8,107,High school degree,No,Female,No,No,Yes,Plus service,No
+916,Zone 1,71,55,Married,11,198,Did not complete high school,No,Female,Yes,No,Yes,Plus service,No
+917,Zone 1,56,53,Married,23,100,Post-undergraduate degree,No,Female,Yes,Yes,No,E-service,No
+918,Zone 3,70,68,Unmarried,21,1131,High school degree,No,Male,No,No,Yes,Plus service,No
+919,Zone 1,62,53,Unmarried,14,360,Some college,No,Female,No,No,Yes,Plus service,No
+920,Zone 1,50,52,Married,22,162,High school degree,No,Female,Yes,No,Yes,Total service,No
+921,Zone 3,1,31,Unmarried,3,29,Post-undergraduate degree,No,Female,No,Yes,No,Basic service,Yes
+922,Zone 3,15,26,Unmarried,1,38,College degree,No,Male,Yes,Yes,Yes,Total service,Yes
+923,Zone 3,72,55,Married,24,82,Some college,No,Female,No,No,No,E-service,No
+924,Zone 2,69,47,Married,10,159,High school degree,No,Male,No,No,Yes,Plus service,Yes
+925,Zone 2,32,44,Unmarried,10,201,High school degree,No,Male,No,No,Yes,Plus service,No
+926,Zone 1,19,25,Married,6,27,College degree,No,Female,Yes,No,Yes,Plus service,Yes
+927,Zone 2,42,54,Unmarried,19,57,Some college,No,Female,Yes,Yes,No,Total service,No
+928,Zone 3,51,49,Unmarried,29,45,Did not complete high school,No,Male,No,No,No,Basic service,No
+929,Zone 2,32,22,Married,2,17,High school degree,No,Female,Yes,No,Yes,Plus service,Yes
+930,Zone 3,26,55,Married,13,61,Did not complete high school,No,Male,No,No,Yes,Plus service,No
+931,Zone 2,39,44,Married,14,418,College degree,No,Male,Yes,No,Yes,Total service,No
+932,Zone 2,72,53,Unmarried,12,152,High school degree,No,Female,No,Yes,Yes,Total service,No
+933,Zone 2,4,39,Unmarried,11,38,College degree,No,Male,Yes,Yes,Yes,Total service,Yes
+934,Zone 2,54,50,Married,5,151,College degree,No,Male,No,No,Yes,Plus service,No
+935,Zone 1,34,40,Married,21,23,College degree,No,Female,No,Yes,Yes,Total service,No
+936,Zone 1,20,25,Married,4,33,College degree,No,Female,No,Yes,Yes,Basic service,No
+937,Zone 3,14,49,Unmarried,4,26,Did not complete high school,No,Male,No,No,No,Basic service,No
+938,Zone 1,61,59,Unmarried,26,89,Did not complete high school,Yes,Female,No,No,No,Plus service,No
+939,Zone 2,4,24,Unmarried,2,25,College degree,No,Male,Yes,Yes,No,Basic service,Yes
+940,Zone 3,16,48,Unmarried,25,59,High school degree,No,Male,No,No,Yes,Plus service,Yes
+941,Zone 1,13,41,Unmarried,9,55,High school degree,No,Female,No,No,No,Basic service,No
+942,Zone 2,53,37,Married,18,25,Some college,No,Female,No,Yes,No,E-service,Yes
+943,Zone 2,58,36,Married,13,39,High school degree,No,Female,Yes,Yes,Yes,Total service,Yes
+944,Zone 2,25,38,Married,19,56,Did not complete high school,No,Female,Yes,No,No,Plus service,No
+945,Zone 1,71,61,Married,19,155,Some college,No,Male,No,No,Yes,Plus service,No
+946,Zone 1,22,33,Married,13,119,Post-undergraduate degree,No,Female,Yes,Yes,No,Total service,Yes
+947,Zone 1,46,48,Married,15,64,Some college,No,Male,No,No,Yes,Plus service,No
+948,Zone 3,66,50,Married,2,333,Post-undergraduate degree,No,Male,No,Yes,No,E-service,No
+949,Zone 1,69,58,Married,29,26,High school degree,No,Female,Yes,Yes,Yes,Total service,No
+950,Zone 2,38,49,Married,3,33,College degree,No,Male,No,Yes,No,E-service,No
+951,Zone 3,16,35,Unmarried,7,46,Some college,No,Male,No,No,No,Basic service,No
+952,Zone 3,44,39,Married,8,41,High school degree,No,Male,Yes,Yes,Yes,Total service,No
+953,Zone 1,50,50,Unmarried,24,31,Did not complete high school,No,Male,No,No,Yes,Plus service,No
+954,Zone 3,10,23,Unmarried,1,29,College degree,No,Female,Yes,Yes,Yes,Total service,No
+955,Zone 2,7,41,Unmarried,6,94,High school degree,No,Male,Yes,No,Yes,Total service,No
+956,Zone 3,71,48,Unmarried,25,288,Some college,No,Male,No,No,Yes,Basic service,No
+957,Zone 3,16,39,Married,5,31,Did not complete high school,No,Female,No,No,No,Basic service,No
+958,Zone 3,6,20,Unmarried,0,25,High school degree,No,Female,No,No,Yes,Plus service,No
+959,Zone 2,46,55,Unmarried,24,269,High school degree,No,Male,No,No,Yes,Plus service,No
+960,Zone 3,51,49,Married,13,203,Some college,No,Male,Yes,No,Yes,Plus service,No
+961,Zone 3,5,34,Unmarried,12,22,High school degree,No,Male,Yes,No,Yes,Basic service,Yes
+962,Zone 2,49,54,Married,23,25,High school degree,No,Female,No,No,No,Basic service,No
+963,Zone 3,49,51,Married,14,222,Post-undergraduate degree,No,Male,No,Yes,No,E-service,No
+964,Zone 1,26,30,Married,4,76,Some college,No,Male,No,No,No,Basic service,No
+965,Zone 3,22,39,Unmarried,4,55,High school degree,No,Female,Yes,Yes,Yes,Total service,Yes
+966,Zone 3,51,45,Married,4,46,Some college,No,Male,Yes,Yes,Yes,Total service,No
+967,Zone 1,19,27,Married,7,56,College degree,No,Male,Yes,Yes,Yes,Total service,Yes
+968,Zone 1,9,36,Unmarried,1,79,Some college,No,Female,Yes,No,Yes,Plus service,Yes
+969,Zone 3,15,25,Married,0,51,Some college,No,Female,No,No,No,Basic service,No
+970,Zone 2,57,63,Unmarried,19,61,Did not complete high school,No,Male,No,No,Yes,Plus service,No
+971,Zone 3,48,45,Unmarried,15,41,Did not complete high school,No,Female,No,No,No,Basic service,No
+972,Zone 2,9,53,Married,20,50,High school degree,No,Female,No,No,No,Basic service,Yes
+973,Zone 1,61,52,Unmarried,21,82,Did not complete high school,No,Male,No,No,Yes,Plus service,No
+974,Zone 3,72,53,Unmarried,34,108,Did not complete high school,No,Male,No,No,Yes,Plus service,No
+975,Zone 3,57,60,Unmarried,20,14,High school degree,Yes,Female,No,No,Yes,Plus service,No
+976,Zone 2,57,51,Unmarried,10,46,Did not complete high school,No,Male,No,Yes,No,E-service,No
+977,Zone 1,37,60,Married,0,46,Did not complete high school,No,Male,No,No,Yes,Plus service,No
+978,Zone 3,45,51,Unmarried,13,146,College degree,No,Male,No,No,No,Basic service,No
+979,Zone 3,45,39,Married,15,36,Did not complete high school,No,Female,No,Yes,No,Basic service,No
+980,Zone 2,55,44,Unmarried,24,83,Did not complete high school,No,Female,No,No,Yes,Plus service,No
+981,Zone 2,24,27,Unmarried,2,17,Some college,No,Male,Yes,No,No,E-service,Yes
+982,Zone 3,1,20,Unmarried,1,18,Some college,No,Male,Yes,Yes,No,Basic service,Yes
+983,Zone 2,34,23,Married,3,24,Did not complete high school,No,Female,No,No,Yes,Plus service,No
+984,Zone 3,14,37,Married,5,48,Some college,No,Female,No,No,No,Basic service,No
+985,Zone 3,6,32,Unmarried,10,47,Did not complete high school,No,Male,No,No,Yes,Plus service,No
+986,Zone 3,24,30,Unmarried,0,25,College degree,No,Male,Yes,Yes,Yes,Total service,Yes
+987,Zone 2,3,26,Married,6,59,College degree,No,Female,Yes,No,Yes,Total service,Yes
+988,Zone 1,4,30,Unmarried,1,45,College degree,No,Male,Yes,Yes,Yes,Total service,Yes
+989,Zone 1,72,40,Married,19,163,College degree,No,Male,No,No,No,E-service,No
+990,Zone 1,44,56,Unmarried,4,63,High school degree,No,Female,No,No,No,Plus service,Yes
+991,Zone 1,50,43,Unmarried,6,27,Some college,No,Male,No,No,Yes,Plus service,No
+992,Zone 2,61,50,Married,16,190,High school degree,No,Female,No,Yes,Yes,E-service,No
+993,Zone 1,34,52,Married,2,106,High school degree,No,Male,No,Yes,Yes,Plus service,No
+994,Zone 3,26,54,Married,30,26,Some college,No,Female,No,No,Yes,Total service,Yes
+995,Zone 1,15,46,Married,17,63,Post-undergraduate degree,No,Male,Yes,Yes,Yes,Total service,Yes
+996,Zone 3,10,39,Unmarried,0,27,Some college,No,Female,No,No,No,Basic service,No
+997,Zone 1,7,34,Unmarried,2,22,Post-undergraduate degree,No,Female,No,No,No,Basic service,No
+998,Zone 3,67,59,Unmarried,40,944,Post-undergraduate degree,No,Female,Yes,Yes,Yes,Total service,No
+999,Zone 3,70,49,Unmarried,18,87,High school degree,No,Female,Yes,No,Yes,Plus service,No
+1000,Zone 3,50,36,Married,7,39,Some college,No,Female,No,Yes,No,E-service,Yes

@@ -51,6 +51,9 @@ coverage.xml
 .pytest_cache/
 cover/
 
+#idea
+.idea/
+
 # Translations
 *.mo
 *.pot
@@ -158,3 +161,9 @@ cython_debug/
 #  and can be added to the global gitignore or merged into this file.  For a more nuclear
 #  option (not recommended) you can uncomment the following to ignore the entire idea folder.
 #.idea/
+
+#Ignore Project Requirements
+DS-223-Group-Project.pdf
+
+#Ignore the Database
+sa_db.db
