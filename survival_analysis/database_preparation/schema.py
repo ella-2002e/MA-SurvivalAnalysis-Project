@@ -63,7 +63,7 @@ class Category(Base):
 class FactPredictions(Base):
     __tablename__ = "FactPredictions"
 
-    pred_date = Column(DATE, primary_key=True)
+    pred_period = Column(Integer, primary_key=True)
     customer_ID = Column(Integer, ForeignKey('DimCustomer.Customer_ID'), primary_key=True)
     CLV = Column(Float)
     Churn_Rate = Column(Float)
