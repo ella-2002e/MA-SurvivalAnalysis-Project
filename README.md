@@ -16,6 +16,6 @@ Follow these simple steps to get started with our package:
 
 2. Run `sql_interaction.py` to populate the database with your data. Ensure that the column names in your CSV file match the column names in the database.
 
-### Step 3: Adding Data
+### Step 3: Running Model and Adding Data To DB
 
 3. Run `model.py` to predict CLV and Churn Rate for the customers and populate the database with the results. Ensure that the column names in your CSV file match the column names in the database.
