@@ -10,7 +10,7 @@ Follow these simple steps to get started with our package:
 
 1. Run `schema_builder.py` to create the necessary database. An Entity Relationship Diagram (ERD) of the database can be found in the `survival_analysis/database_preparation/ERD.jpg` file.
 
-![Database ERD](survival_analysis/database_preparation/ERD.jpg)
+![Database ERD](survival_analysis/docs/ERD.jpg)
 
 ### Step 2: Adding Data
 
