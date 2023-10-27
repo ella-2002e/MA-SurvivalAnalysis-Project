@@ -19,3 +19,8 @@ Follow these simple steps to get started with our package:
 ### Step 3: Running Model and Adding Data To DB
 
 3. Run `model.py` to predict CLV and Churn Rate for the customers and populate the database with the results. Ensure that the column names in your CSV file match the column names in the database.
+
+### Step 4: Selecting data from DB, Inserting data to DB and Updating Data in DB 
+
+4. Run `run.py` to see initially a message in port, add /docs to see put, post and get methods besides message.
+Port should look something like this: http://127.0.0.1:8000/docs#/ . You can run `run.py` by executing python run.py in your terminal in venv. 
