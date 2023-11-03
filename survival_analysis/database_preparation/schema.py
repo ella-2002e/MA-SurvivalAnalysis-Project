@@ -1,3 +1,11 @@
+"""
+Module: schema.py
+
+This module contains Python code for defining and creating a database schema using SQLAlchemy. It defines three tables: 'DimCustomer' and 'FactPredictions' table that establishes relationships with the 'DimCustomer' table.
+
+It also configures a custom logger for informational messages regarding the schema creation.
+
+"""
 
 import logging
 import os
@@ -5,6 +13,7 @@ import os
 import logging
 from ..logger import CustomFormatter
 
+# Initialize and configure the logger
 logger = logging.getLogger(os.path.basename(__file__))
 logger.setLevel(logging.DEBUG)
 ch = logging.StreamHandler()
@@ -12,21 +21,40 @@ ch.setLevel(logging.DEBUG)
 ch.setFormatter(CustomFormatter())
 logger.addHandler(ch)
 
-
-from sqlalchemy import create_engine,Column,Integer,String,Float, DATE, DateTime, ForeignKey
+from sqlalchemy import create_engine, Column, Integer, String, Float, DATE, DateTime, ForeignKey
 from sqlalchemy.ext.declarative import declarative_base
 from sqlalchemy.orm import sessionmaker, relationship
 from datetime import datetime
 
-#engine=create_engine('mysql+mysqlconnector://root:anechka2002@127.0.0.1:3306/sa_db')
+# Define and configure the database engine (Change the connection URL as needed)
+engine = create_engine('sqlite:///sa_db.db')
 
-#connection = engine.connect()
-
-engine=create_engine('sqlite:///sa_db.db')
-
-Base= declarative_base()
+# Create a base class for declarative class definitions
+Base = declarative_base()
 
 class Customer(Base):
+    """
+    Class: Customer
+
+    This class defines the 'DimCustomer' table, which represents customer information.
+
+    Attributes:
+    - Customer_ID (int): Primary key for the customer.
+    - Age (int): Customer's age.
+    - Tenure (int): Customer's tenure with the company.
+    - Gender (str): Customer's gender.
+    - Income (int): Customer's income.
+    - Marital_Status (str): Customer's marital status.
+    - Address_ID (int): Customer's address identifier.
+    - Education (str): Customer's education level.
+    - Retirement (str): Customer's retirement status.
+    - Churn (str): Customer's churn status.
+    - Region (str): Customer's region.
+    - Service_Category (str): Service category.
+    - Voice_Included (str): Voice service inclusion status.
+    - Internet_Included (str): Internet service inclusion status.
+    - Forward_Included (str): Forwarding service inclusion status.
+    """
     __tablename__ = "DimCustomer"
 
     Customer_ID = Column(Integer, primary_key=True)
@@ -45,22 +73,22 @@ class Customer(Base):
     Internet_Included = Column(String(3))
     Forward_Included = Column(String(3))
 
-'''
-class Region(Base):
-    __tablename__ = "DimRegion"
-
-    Region_ID = Column(Integer, primary_key=True)
-    Region = Column(String(15))
-
-
-class Category(Base):
-    __tablename__ = "DimServiceCategory"
-
-    Service_Category_ID = Column(Integer, primary_key=True)
-    Service_Category = Column(String(15))
-'''
+# Note: You can uncomment and define additional table classes like 'Region' and 'Category' here if needed.
 
 class FactPredictions(Base):
+    """
+    Class: FactPredictions
+
+    This class defines the 'FactPredictions' table, which stores predictive information related to customers.
+
+    Attributes:
+    - pred_period (int): Primary key representing the prediction period.
+    - customer_ID (int): Foreign key referencing the 'DimCustomer' table.
+    - CLV (float): Customer Lifetime Value.
+    - Churn_Rate (float): Churn rate.
+    - customer (relationship): Establishes a relationship with the 'DimCustomer' table.
+
+    """
     __tablename__ = "FactPredictions"
 
     pred_period = Column(Integer, primary_key=True)
@@ -69,7 +97,8 @@ class FactPredictions(Base):
     Churn_Rate = Column(Float)
     customer = relationship("DimCustomer")
 
-
+# Create the tables defined in the schema
 Base.metadata.create_all(engine)
 
+# Log a message indicating that the schema has been created
 logger.info("Schema Has Been Created")
