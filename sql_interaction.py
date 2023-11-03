@@ -4,10 +4,10 @@ import pandas as pd
 # Get Data
 
 #For Mac Users
-data=pd.read_csv(r'survival_analysis/Raw Data/telco.csv')
+data=pd.read_csv(r'Raw Data/telco.csv')
 
 #For Windows users
-#data=pd.read_csv(r'survival_analysis\Raw Data\telco.csv')
+#data=pd.read_csv(r'Raw Data\telco.csv')
 
 #Insert Data to DimCustomer
 Inst=SqlHandler('sa_db', 'DimCustomer')

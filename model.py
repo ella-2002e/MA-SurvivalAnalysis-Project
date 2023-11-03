@@ -19,18 +19,18 @@ result_df = pseudo_model.pseudo_model('Customer_ID')
 # Save the results to a CSV file
 
 #For Windows
-#result_df.to_csv('survival_analysis\Raw Data\model_output.csv', index=False)
+result_df.to_csv('Raw Data\model_output.csv', index=False)
 
 #For MAC
-result_df.to_csv('survival_analysis/Raw Data/model_output.csv', index=False)
+#result_df.to_csv('Raw Data/model_output.csv', index=False)
 
 # Get Data
 
 #For Windows
-#data =pd.read_csv(r'survival_analysis\Raw Data\model_output.csv')
+data =pd.read_csv(r'Raw Data\model_output.csv')
 
 #For MAC
-data =pd.read_csv(r'survival_analysis/Raw Data/model_output.csv')
+#data =pd.read_csv(r'Raw Data/model_output.csv')
 
 #Insert Data to DimCustomer
 Inst=SqlHandler('sa_db', 'FactPredictions')
