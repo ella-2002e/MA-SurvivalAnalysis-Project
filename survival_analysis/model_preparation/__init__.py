@@ -1,2 +1,2 @@
 from ..logger import CustomFormatter
-from .utils import PseudoModel
+from .model import PseudoModel
