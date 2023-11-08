@@ -15,8 +15,8 @@ Methods:
 - close_cnxn(self) -> None:
     Closes the SQLite database connection.
 
-- insert_one(self) -> None:
-    Placeholder for inserting a single record into the database. (Needs implementation.)
+- insert_one(self, data) -> str:
+    Inserts a single row to the database. 
 
 - get_table_columns(self) -> list:
     Retrieves a list of column names for the specified table.
@@ -33,8 +33,9 @@ Methods:
 - from_sql_to_pandas(self, chunksize: int, id_value: str) -> pd.DataFrame:
     Retrieves data from the database and loads it into a pandas DataFrame in chunks of a specified size.
 
-- update_table(self, condition):
-    Placeholder for updating records in the table based on a condition. (Needs implementation.)
+- update_table(self, set_dict, cond_dict):
+    Update rows in a database table based on the set and where conditions provided in dictionaries.
+
 
 """
 
