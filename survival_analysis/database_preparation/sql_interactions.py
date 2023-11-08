@@ -116,7 +116,7 @@ class SqlHandler:
             logger.info(self.cursor.messages)
         except:
             pass
-        
+
         self.cnxn.commit()
         logger.warning('The data is loaded')
 
@@ -223,13 +223,54 @@ class SqlHandler:
         df = pd.concat(dfs)
         return df
 
-    def update_table(self, condition):
+   
+    def update_table(self, set_dict: dict, cond_dict: dict) -> str:
         """
-        Placeholder for updating records in the table based on a condition. (Needs implementation.)
+        Update rows in a database table based on the set and where conditions provided in dictionaries.
 
         Parameters:
-        - condition: The condition to apply for updating records.
-        """
-        pass  # TODO: complete on your own
+        - set_dict (dict): A dictionary with column names as keys and new values as values for the SET clause.
+        - cond_dict (dict): A dictionary with column names as keys and conditions as values for the WHERE clause.
 
-# End of the SqlHandler class and module
+        Returns:
+        - str: A message indicating that the data has been updated.
+        """
+        
+        #getting the db column names
+        columns = self.get_table_columns()
+        sql_column_names = [col.lower() for col in columns]
+
+        # Convert keys to lowercase
+        set_dict = {key.lower(): value for key, value in set_dict.items()}
+        cond_dict = {key.lower(): value for key, value in cond_dict.items()}
+
+        # Filter the dictionary to keep only keys that match the database column names
+        set_dict = {key: value for key, value in set_dict.items() if key in sql_column_names}
+        cond_dict = {key: value for key, value in cond_dict.items() if key in sql_column_names}    
+        
+        try:
+            # Generate the SET clause
+            set_clause = ', '.join([f"{col} = ?" for col in set_dict.keys()])
+            set_values = list(set_dict.values())
+            logger.info(f'Set Clause Structure: {set_clause}')
+            
+            # Generate the WHERE clause
+            where_clause = ' AND '.join([f"{col} {cond}" for col, cond in cond_dict.items()])
+            #where_values = []
+            logger.info(f'Where Clause Structure: {where_clause}')
+
+            # Build the SQL query
+            query = f"""
+                UPDATE {self.table_name}
+                SET {set_clause}
+                WHERE {where_clause};
+            """
+            self.cursor.execute(query, set_values)
+
+            self.cnxn.commit()
+            logger.warning(f'The table {self.table_name} is updated.')
+        except Exception as e:
+            logger.warning(f"Error updating rows: {e}")
+            
+
+
