@@ -76,11 +76,50 @@ class SqlHandler:
         self.cnxn.close()
         logger.info('The connection has been closed')
 
-    def insert_one(self) -> None:
+    def insert_one(self, data: dict) -> str:
         """
-        Placeholder for inserting a single record into the database. (Needs implementation.)
+        Inserts a single record from a dictionary into the specified table, mapping keys to their respective database columns.
+
+        Parameters:
+        - data (dict): A dictionary containing data to be inserted.
+
+        Returns:
+        - str: A message indicating that the data has been loaded.
         """
-        pass
+
+        #getting the DB columns
+
+        columns = self.get_table_columns()
+        sql_column_names = [col.lower() for col in columns]
+
+        # Convert keys to lowercase
+        data = {key.lower(): value for key, value in data.items()}
+
+        # Filter the dictionary to keep only keys that match the database column names
+        filtered_data = {key: value for key, value in data.items() if key in sql_column_names}
+        
+        # Prepare the values to be inserted
+        row_values = list(filtered_data.values())
+        columns = list(filtered_data.keys())
+        
+        ncolumns = ['?' for _ in columns]
+        cols = ', '.join(columns)
+        params = ', '.join(ncolumns)
+
+        logger.info(f'Insert structure: colnames: {cols} params: {params}')
+
+        query = f"""INSERT INTO {self.table_name} ({cols}) VALUES ({params});"""
+
+        self.cursor.execute(query, row_values)
+    
+        try:
+            logger.info(self.cursor.messages)
+        except:
+            pass
+        
+        self.cnxn.commit()
+        logger.warning('The data is loaded')
+
 
     def get_table_columns(self) -> list:
         """
