@@ -139,8 +139,9 @@ class SqlHandler:
         """
         Truncates the specified table, removing all its data.
         """
-        query = f"DROP TABLE IF EXISTS {self.table_name};"
+        query = f"DELETE FROM {self.table_name};"
         self.cursor.execute(query)
+        self.cnxn.commit()
         logging.info(f'The {self.table_name} is truncated')
         self.cursor.close()
 
