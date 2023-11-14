@@ -1,5 +1,4 @@
 from survival_analysis.database_preparation.sql_interactions import SqlHandler
-from survival_analysis.model_preparation.model import PseudoModel
 from survival_analysis.model_preparation.model_AFT import AFTModelSelector
 from survival_analysis.utils import format_dataframe
 import pandas as pd
@@ -38,7 +37,7 @@ aft_model_selector.calculate_clv()
 aft_model_selector.predictions_df.to_csv('Raw Data\model_output.csv', index=False)
 
 #For MAC
-#result_df.to_csv('Raw Data/model_output.csv', index=False)
+#aft_model_selector.predictions_df.to_csv('Raw Data/model_output.csv', index=False)
 
 # Get Data
 
