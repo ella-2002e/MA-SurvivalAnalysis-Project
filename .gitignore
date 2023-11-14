@@ -168,3 +168,6 @@ DS-223-Group-Project.pdf
 
 #Ignore the Database
 sa_db.db
+
+#Ignore DS Store
+.DS_Store
