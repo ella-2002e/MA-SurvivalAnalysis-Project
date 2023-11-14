@@ -255,10 +255,10 @@ class SqlHandler:
             set_clause = ', '.join([f"{col} = ?" for col in set_dict.keys()])
             set_values = list(set_dict.values())
             logger.info(f'Set Clause Structure: {set_clause}')
-            
+
             # Generate the WHERE clause
-            where_clause = ' AND '.join([f"{col} {cond}" for col, cond in cond_dict.items()])
-            #where_values = []
+            where_clause = ' AND '.join([f"{col} = ?" for col in cond_dict.keys()])
+            where_values = list(cond_dict.values())  # Add values for the WHERE clause
             logger.info(f'Where Clause Structure: {where_clause}')
 
             # Build the SQL query
@@ -266,13 +266,15 @@ class SqlHandler:
                 UPDATE {self.table_name}
                 SET {set_clause}
                 WHERE {where_clause};
-            """
-            self.cursor.execute(query, set_values)
+                    """
+            logger.info(f'Generated SQL query: {query}')  # Log the generated query
+            self.cursor.execute(query, set_values + where_values)  # Combine SET and WHERE values
 
             self.cnxn.commit()
             logger.warning(f'The table {self.table_name} is updated.')
         except Exception as e:
             logger.warning(f"Error updating rows: {e}")
+
             
 
 
