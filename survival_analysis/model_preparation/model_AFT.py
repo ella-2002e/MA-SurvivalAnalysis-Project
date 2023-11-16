@@ -42,7 +42,6 @@ class AFTModelSelector:
         self.event_col = event_col
         self.aft_model = None
         self.predictions_df = None
-        self.clv_prediction = None
 
             
             
@@ -143,7 +142,7 @@ class AFTModelSelector:
             logger.warning("Please run fit_and_predict() first.")
             return
         
-        #Preparing data for calculating CLV
+        #Making the data long format
         data_clv = self.predictions_df.pivot(index='customer_id', columns='pred_period', values='churn_rate')
         #Calculating the Survival Rates from Churn Rates 
         data_clv = 1 - data_clv
@@ -152,24 +151,26 @@ class AFTModelSelector:
         for i in range(1, len(data_clv.columns) + 1):
             # Selecting the first i columns
             subset_data = data_clv.iloc[:, :i]
-
+    
             # Calculating CLV 
-            data_clv = subset_data.copy()
-            sequence = list(range(1, len(data_clv.columns) + 1))
+            data_clv1 = subset_data.copy()
+            sequence = list(range(1, len(data_clv1.columns) + 1))
 
             for num in sequence:
-                data_clv.iloc[:, num - 1] /= (1 + r/12) ** (num - 1)
+                data_clv1.iloc[:, num - 1] /= (1 + r/12) ** (num - 1)
 
-            data_clv['CLV'] = round(MM * data_clv.sum(axis=1), 5)
-            data_clv['pred_period'] = i
+            data_clv1['CLV'] = MM * data_clv1.sum(axis=1)
             
-            #returning to original data format and saving the predictions
-            data_clv = data_clv.reset_index()
-            data_clv = data_clv[['customer_id', 'pred_period', 'CLV']]
-            predictions_dfs.append(data_clv)
+            predictions_dfs.append(data_clv1['CLV'])
+
+        clv_prediction = pd.concat(predictions_dfs, axis=1)
+        clv_prediction.columns = range(1, len(predictions_dfs) + 1)
+
+        #returning to original data format and saving the predictions
+        clv_prediction = clv_prediction.reset_index()
+        clv_prediction = pd.melt(clv_prediction, id_vars=['customer_id'], var_name='pred_period', value_name='CLV')
 
         #Combining the results and updating the predictions dataframe
-        clv_prediction = pd.concat(predictions_dfs, axis=0, ignore_index=True)
         self.predictions_df = pd.merge(self.predictions_df, clv_prediction, on=['customer_id','pred_period'], how='left')
         logger.info("The CLV predictions were added successfully.")
         
