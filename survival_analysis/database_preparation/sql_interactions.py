@@ -33,7 +33,7 @@ Methods:
 - from_sql_to_pandas(self, chunksize: int, id_value: str) -> pd.DataFrame:
     Retrieves data from the database and loads it into a pandas DataFrame in chunks of a specified size.
 
-- update_table(self, set_dict, cond_dict):
+- update_table(self, set_dict, cond_dict) -> str:
     Update rows in a database table based on the set and where conditions provided in dictionaries.
 
 
@@ -72,6 +72,7 @@ class SqlHandler:
     def close_cnxn(self) -> None:
         """
         Closes the SQLite database connection.
+        
         """
         logger.info('Committing the changes')
         self.cnxn.close()
