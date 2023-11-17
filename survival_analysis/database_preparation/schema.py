@@ -9,8 +9,6 @@ It also configures a custom logger for informational messages regarding the sche
 
 import logging
 import os
-
-import logging
 from ..logger import CustomFormatter
 
 # Initialize and configure the logger
