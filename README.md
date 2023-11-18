@@ -27,11 +27,11 @@ Port should look something like this: http://127.0.0.1:8000/docs#/ . You can run
 
 ## The API contains:
 
-# 1. Two get methods: get_top_churn_clv_customers & get_top_clv_customers 
+### 1. Two get methods: get_top_churn_clv_customers & get_top_clv_customers 
 - First endpoint /get_top_churn_clv_customers accepts pred_period and number of percentage for sorting customers initially by churn_rate and then by clv. It returns top x% customers based on churn_rate & CLV.
 - Second endpoint /get_top_clv_customers accepts pred_period and number of percentage for sorting customers by CLV. It returns top x% customers based on CLV.
 
-# 2. Two put methods: populate_fact_push_notification & populate_fact_email
+### 2. Two put methods: populate_fact_push_notification & populate_fact_email
 
 These two methods are created to populate the DB with the results of actions taken in response to the two get methods mentioned above.
 There are two csv files email_data.csv and notifications_data.csv in Raw Data folder that contain sample generated data with structure that matches tables of the database.
