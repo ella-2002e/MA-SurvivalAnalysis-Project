@@ -20,7 +20,18 @@ Follow these simple steps to get started with our package:
 
 3. Run `model_runner.py` to predict Churn Rate and Customer Lifetime Value (CLV) using Accelerated failure time (AFT) model for the customers and populate the 'FactPredictions' table in the database with the results. Ensure that the column names in your CSV file match the column names in the database.
 
-### Step 4: Selecting data from DB, Inserting data to DB and Updating Data in DB 
+### Step 4: Testing with Swagger, it contains put methods and endpoints (API part)
 
-4. Run `run.py` to see initially a message in port, add /docs to see put, post and get methods besides message.
+4. Run `run.py` to see initially a message in port, add /docs to see put methods and two get endpoints besides message.
 Port should look something like this: http://127.0.0.1:8000/docs#/ . You can run `run.py` by executing python run.py in your terminal in venv. 
+
+### There are two csv files email_data.csv and notifications_data.csv that contain sample generated data with structure that matches tables of database. 
+
+First put method allows to choose a csv file to add in FactPushNotification table. We added with that method notifications_data.csv. Similarly, email_data.csv is used to populate FactEmail with second put method.
+
+email_data customer_id-s are taken from endpoint: http://127.0.0.1:8000/get_top_clv_customers?top_percentage=20&pred_period=5 
+notifications_data.csv customer_id-s are taken from endpoint: http://127.0.0.1:8000/get_top_churn_clv_customers?pred_period=12&top_percentage=10 
+
+### Besides put method, we have two endpoints:
+First endpoint /get_top_churn_clv_customers accepts pred_period and number of percentage for sorting customers initially by churn_rate and then by clv. It returns top x% customers based on churn_rate & CLV.
+Second endpoint /get_top_clv_customers accepts pred_period and number of percentage for sorting customers by CLV. It returns top x% customers based on CLV.
