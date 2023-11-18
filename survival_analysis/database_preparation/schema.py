@@ -93,6 +93,47 @@ class FactPredictions(Base):
     Churn_Rate = Column(Float)
     customer = relationship("DimCustomer")
 
+class FactPushNotification(Base):
+    """
+    Class: FactPushNotification
+
+    This class defines the 'FactPushNotification' table, which stores information about the push notifications sent to customers.
+
+    Attributes:
+    - sent_date (DateTime): Primary key representing the date the push notification was sent.
+    - customer_ID (int): Foreign key referencing the 'DimCustomer' table.
+    - success (int): A binary column representing wether the push notification was sent successfully or not.
+    - customer (relationship): Establishes a relationship with the 'DimCustomer' table.
+
+    """
+    __tablename__ = "FactPushNotification"
+
+    sent_date = Column(DateTime, primary_key=True)
+    customer_ID = Column(Integer, ForeignKey('DimCustomer.Customer_ID'), primary_key=True)
+    success = Column(Integer)
+    customer = relationship("DimCustomer")
+
+class FactEmail(Base):
+    """
+    Class: FactEmail
+
+    This class defines the 'FactEmail' table, which stores information about the emails sent to customers.
+
+    Attributes:
+    - sent_date (DateTime): Primary key representing the date the push notification was sent.
+    - customer_ID (int): Foreign key referencing the 'DimCustomer' table.
+    - success (int): A binary column representing wether the push notification was sent successfully or not.
+    - customer (relationship): Establishes a relationship with the 'DimCustomer' table.
+
+    """
+    __tablename__ = "FactEmail"
+
+    sent_date = Column(DateTime, primary_key=True)
+    customer_ID = Column(Integer, ForeignKey('DimCustomer.Customer_ID'), primary_key=True)
+    success = Column(Integer)
+    customer = relationship("DimCustomer")
+
+
 # Create the tables defined in the schema
 Base.metadata.create_all(engine)
 

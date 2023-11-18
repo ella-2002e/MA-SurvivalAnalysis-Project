@@ -47,7 +47,7 @@ data =pd.read_csv(r'Raw Data\model_output.csv')
 #For MAC
 #data =pd.read_csv(r'Raw Data/model_output.csv')
 
-#Makingt sure the table does not contain previous results
+#Making sure the table does not contain previous results
 #Insert Data to FactPredictions
 Inst=SqlHandler('sa_db', 'FactPredictions')
 
