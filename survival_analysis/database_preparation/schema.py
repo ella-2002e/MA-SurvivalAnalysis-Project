@@ -1,7 +1,8 @@
 """
 Module: schema.py
 
-This module contains Python code for defining and creating a database schema using SQLAlchemy. It defines two tables: 'DimCustomer' and 'FactPredictions' table that establishes relationships with the 'DimCustomer' table.
+This module contains Python code for defining and creating a database schema using SQLAlchemy. 
+It defines four tables: 'DimCustomer', 'FactPredictions' 'FactPushNotification' and 'FactEmail'.
 
 It also configures a custom logger for informational messages regarding the schema creation.
 
