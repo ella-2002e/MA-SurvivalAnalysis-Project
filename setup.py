@@ -6,5 +6,5 @@ setup(
     name='survival_analysis',
     version='0.1.0',
     packages=find_packages(include=['survival_analysis','survival_analysis.*']),
-    
+    include_package_data= True
 )
