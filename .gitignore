@@ -171,3 +171,6 @@ sa_db.db
 
 #Ignore DS Store
 .DS_Store
+
+#Ignore Local files
+Example.slides.html
