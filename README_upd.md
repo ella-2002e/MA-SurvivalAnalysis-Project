@@ -2,7 +2,7 @@
 
 ## Overview
 
-The **Survival Analysis** package is a Python toolkit for analyzing and predicting customer churn using survival analysis techniques. This package encompasses several modules that cover database schema creation, SQL interactions, predictive modeling, and utility functions for data preprocessing.
+The **Survival Analysis** package is a Python toolkit for analyzing and predicting customer churn and lifetime value using survival analysis techniques. This package encompasses several modules that cover database schema creation, SQL interactions, predictive modeling, and utility functions for data preprocessing.
 
 ## Installation 
 
@@ -64,7 +64,7 @@ An example demonstrating the use of this package can be found at https://github.
 
 # API
 
-The API extends our Survival Analysis project with functionality to select data from the database, insert data, and update data. The API now includes several endpoints that help identify top customers with the highest churn rate, customers with the highest/lowest CLV, etc.
+The API extends our Survival Analysis project with functionality to select data from the database and insert data. The API now includes several endpoints that help identify top customers with the highest churn rate, customers with the highest/lowest CLV, etc.
 
 ## Usage 
 
