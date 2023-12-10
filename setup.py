@@ -6,5 +6,6 @@ setup(
     name='survival_analysis',
     version='0.0.1',
     packages=find_packages(include=['survival_analysis','survival_analysis.*']),
-    include_package_data= True
+    include_package_data= True, 
+    long_description=open('README.md').read()
 )
