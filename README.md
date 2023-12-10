@@ -7,7 +7,7 @@ The **Survival Analysis** package is a Python toolkit for analyzing and predicti
 ## Installation 
 
 ```python
-pip install survival_analysis
+pip install survival-analysis
 ```
 ## Documentation
 
