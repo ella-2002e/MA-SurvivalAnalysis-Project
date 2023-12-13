@@ -10,7 +10,7 @@ The **Survival Analysis** package is a Python toolkit for analyzing and predicti
 pip install survival-analysis
 ```
 You can access our package via PyPi using this link:
-https://pypi.org/project/survival-analysis/0.0.1/
+https://pypi.org/project/survival-analysis/
 
 ## Documentation
 
